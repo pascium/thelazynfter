@@ -1,0 +1,22 @@
+
+<head>
+    <title>{{ .Title }}</title>
+    <meta name="description" content="{{ .Description }}">
+    <meta name="author" content="{{ .Site.Title }}">
+    <meta name="viewport" content="width=device-width">
+    <meta name="robots" content="index, follow">
+    <meta property="article:published_time" content="{{ .Date }}" />
+    <meta name="revised" content="{{ .Params.mod_date }}" />
+    <link rel="canonical" href="{{ .Permalink }}">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://*; child-src 'none';">
+
+    <link rel="icon" type="image/x-icon" href="{{ $.Site.Params.favicon | relURL }}">
+    <link rel="apple-touch-icon" href="{{ $.Site.Params.favicon | relURL }}">
+
+    <link rel="preload" href="{{ "/css/bulma.min.css" | relURL }}" as="style">
+    <link rel="preload" href="{{ "/css/main.css" | relURL }}" as="style">
+
+    <link rel="stylesheet" href="{{ "/css/bulma.min.css" | relURL }}">
+    <link rel="stylesheet" href="{{ "/css/main.css" | relURL }}">
+</head>

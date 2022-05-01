@@ -1,0 +1,43 @@
+{{ define "main" }}
+<main>
+    <section class="hero is-medium">
+        <div class="hero-body has-text-centered">
+            <h1 class="title">
+                {{ .Params.headline }}
+            </h1>
+            <p class="subtitle">
+                {{ .Description }}
+            </p>
+        </div>
+    </section>
+
+    <div class="section">
+        <div class="container">
+            <div class="columns is-flex-wrap-wrap">
+                {{ range .Pages.ByDate.Reverse }}
+                <div class="column is-half">
+                    <a href="{{ .RelPermalink }}" target="_self" aria-label="read {{ .Params.headline }} article.">
+                        <article class="card">
+                            <div class="card-image">
+                                <figure class="image is-4by3">
+                                    <img src="{{ .Params.thumbnail }}" alt="{{ .Params.thumbnail_alt }}" loading="lazy" width="660" height="495">
+                                </figure>
+                            </div>
+                            <div class="card-content">
+
+                                <div class="content">
+                                    <h2 class="title is-4">{{ .Params.headline }}</h2>
+                                    <p>{{ .Description }}</p>
+                                </div>
+                            </div>
+                        </article>
+                    </a>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+
+</main>
+
+{{ end }}

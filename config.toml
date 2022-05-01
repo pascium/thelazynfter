@@ -1,0 +1,15 @@
+baseURL = "https://thelazynfter.blog/"
+languageCode = "en"
+title = "thelazynfter"
+description = "Explore decentralized gaming guides, tips and tricks. All created and researched by your talkative neighborhood blockchain and NFT blog."
+theme = "cryptotheme"
+
+disableHugoGeneratorInject = true
+disableKinds = ["taxonomy", "taxonomyTerm"]
+enableRobotsTXT = true
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+    favicon = "/img/favicon.ico"
+    logo = "/img/thelazynfter_logo.webp"
