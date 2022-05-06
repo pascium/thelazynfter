@@ -17,8 +17,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    <link rel="icon" type="image/x-icon" href="{{ .Site.Params.favicon }}">
-    <link rel="apple-touch-icon" href="{{ .Site.Params.favicon }}">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favcons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favcons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favcons/favicon-16x16.png">
+    <link rel="manifest" href="/img/favcons/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
 
     <link rel="preload" href="{{ "/css/bulma.min.css" | relURL }}" as="style">
     <link rel="preload" href="{{ "/css/main.css" | relURL }}" as="style">
@@ -66,7 +70,7 @@
   "@type": "ImageObject",
   "url": "{{ .Site.Params.logo }}",
   "width": "600",
-  "height": "60"
+  "height": "100"
 }
 },
 "datePublished": "{{ .Date }}",

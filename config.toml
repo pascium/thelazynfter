@@ -11,8 +11,8 @@ enableRobotsTXT = true
 unsafe = true
 
 [params]
-    favicon = "/img/favicon.ico"
-    logo = "/img/thelazynfter_logo.webp"
+    favicon = "/favicon.ico"
+    logo = "/img/thelazynfter-logo.svg"
     author = "Thelazynfter"
 
 [sitemap]
