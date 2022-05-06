@@ -1,11 +1,10 @@
 ---
-title: "Why My License Is So Much Better Than Yours"
+title: "License"
 description: "This license page gives you a clear picture of what you are allowed to do with the content of my website and what is absolutely prohibited."
-headline: "Why My License Is So Much Better Than Yours"
 thumbnail: "/img/page/sci-fi_robot_police_out.webp"
 thumbnail_alt: "sci-fi robot police in the Metaverse"
-date: 2022-04-19T18:56:56+01:00
-mod_date: 2022-04-22T18:12:14+01:00
+date: 2022-04-19T18:56:56+02:00
+mod_date: 2022-05-06T20:46:14+02:00
 ---
 All written content and images are published under the Creative Commons attribution-sharealike 4.0 international License unless otherwise stated.
 

@@ -1,12 +1,10 @@
 ---
-title: "Disclaimer | TheLazyNFTer"
+title: "Disclaimer Policy"
 description: "Want to use any of the arterial on thelazynfter.blog website, make sure to read this page first."
-headline: "Disclaimer: Keep It Simple (And Stupid)."
-keywords: "disclaimer, affiliate disclaimer, content disclaimer"
 thumbnail: "/img/page/sci-fi_robot_police_out.webp"
 thumbnail_alt: "sci-fi robot police in the Metaverse"
-date: 2022-04-19T18:43:05+01:00
-mod_date: 2022-04-19T18:43:05+01:00
+date: 2022-04-19T18:43:05+02:00
+mod_date: 2022-05-06T20:43:05+02:00
 ---
 
 The use of the information on this website is free as long you do not sell or misuse this information.

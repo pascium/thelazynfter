@@ -1,21 +1,33 @@
 {{ define "main" }}
 <main>
-    <div class="section">
-        <div class="columns">
-            <article class="column is-three-fifths is-offset-one-fifth">
-                <div class="has-text-centered">
-                    <h1 class="title is-capitalized">{{ .Params.headline }}</h1>
-                    <figure class="image is-16-9 my-5">
-                        <img src="{{ .Params.thumbnail }}" alt="{{ .Params.thumbnail_alt }}" width="846" height="476">
-                    </figure>
+    <article class="has-background-white-ter">
+        <section class="hero is-info is-medium is-bold">
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <h1 class="title">{{ .Title }}</h1>
                 </div>
-                <div class="content">
-                    {{ .Content }}
-                </div>
+            </div>
+        </section>
 
-            </article>
+        <div class="container">
+            <section class="articles">
+                <div class="column is-8 is-offset-2">
+                    <!-- START ARTICLE -->
+                    <div class="card article">
+                        <div class="card-content">
+                            <div class="content article-body py-4">
+
+                                {{ .Content }}
+                            </div>
+                        </div>
+                    </div>
+                    <!-- END ARTICLE -->
+                </div>
+            </section>
         </div>
-    </div>
+
+    </article>
+
 </main>
 
 {{ end }}

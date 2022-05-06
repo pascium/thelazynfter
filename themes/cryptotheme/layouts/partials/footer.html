@@ -1,15 +1,30 @@
-<footer class="footer mt-5">
-  <div class="content has-text-centered">
-    <p>{{ .Site.Title }} 2022 &#124; <a href="/privacy-policy/" target="_blank">Privacy</a> &#45; <a href="/disclaimer/" target="_blank">Disclaimer</a> &#45; <a href="/license/" target="_blank">License</a> &#45; <a href="/disability/" target="_blank">Disability</a></p>
-  </div>
+<div class="section has-background-info">
+    {{ partial "donate.html" . }}
+</div>
+<footer class="section">
+    <div class="container">
+        <div class="pb-5 is-flex is-flex-wrap-wrap is-justify-content-between is-align-items-center">
+            <div class="mr-auto mb-2">
+                <a class="is-inline-block" href="/" aria-label="back to home page">
+                    <img class="image" src="{{ $.Site.Params.logo }}" alt="thelazynfter logo" width="96px" height="auto" loading="lazy"></a>
+            </div>
+            <div>
+                <ul class="is-flex is-flex-wrap-wrap is-align-items-center is-justify-content-center">
+                    <li class="mr-4"><a class="button is-white" href="/privacy-policy/" target="_blank">Privacy</a></li>
+                    <li class="mr-4"><a class="button is-white" href="/disclaimer/" target="_blank">Disclaimer</a></li>
+                    <li class="mr-4"><a class="button is-white" href="/license/" target="_blank">License</a></li>
+                    <li><a class="button is-white" href="https://forms.gle/2nQ8WRGszvzBdeD4A" target="_blank">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="pt-5" style="border-top: 1px solid #dee2e6;"></div>
+    <div class="container">
+        <div class="is-flex-tablet is-justify-content-between is-align-items-center">
+            <p>&copy; thelazynfter.blog &#45; 2022</p>
+        </div>
+    </div>
 </footer>
-
-{{ if .Params.guide_lock }}
-<noscript><meta http-equiv="refresh" content="0;url=https://verifyspot.net/noscript" /></noscript>
-<script type="text/javascript">var ogblock=true;</script>
-<script type="text/javascript" id="ogjs" src="https://verifyspot.net/cl/js/8d1omj"></script>
-<script type="text/javascript">if(ogblock) window.location.href = "https://verifyspot.net/adblock";</script>
-{{ end }}
 
 
 <script src="{{ "/js/main.js" | relURL }}"></script>

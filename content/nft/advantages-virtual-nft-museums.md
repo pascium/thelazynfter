@@ -1,12 +1,11 @@
 ---
-title: "Anyone Who Has A Problem With Virtual Nft Museums Needs To Know This"
-headline: "Anyone Who Has A Problem With Virtual Nft Museums Needs To Know This"
+title: "NFT Virtual Museum"
 description: "Virtual museum in the metaverse full of art NFTs, does it has advantages over regular museums? My thoughts on future proving museums may surprise you."
 thumbnail: "https://bulma.io/images/placeholders/1280x960.png"
 thumbnail_alt: "the is a alt tag"
 date: 2022-04-20T16:59:29+02:00
-mod_date: 2022-04-20T16:59:29+02:00
-type: "NFT"
+mod_date: 2022-05-06T20:41:46+02:00
+type: "post"
 ---
 It may sound strange, a museum in the metaverse full of NFTs, but if you think about it, it is not a bad idea.
 

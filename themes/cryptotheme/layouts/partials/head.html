@@ -1,22 +1,93 @@
 
-<head>
-    <title>{{ .Title }}</title>
-    <meta name="description" content="{{ .Description }}">
-    <meta name="author" content="{{ .Site.Title }}">
-    <meta name="viewport" content="width=device-width">
-    <meta name="robots" content="index, follow">
-    <meta property="article:published_time" content="{{ .Date }}" />
-    <meta name="revised" content="{{ .Params.mod_date }}" />
-    <link rel="canonical" href="{{ .Permalink }}">
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src https://*; child-src 'none';">
+<head itemscope itemtype="{{ .Site.BaseURL }}">
+    <title>{{ .Title }} | {{ $.Site.Title }}</title>
+    <meta name="description" content="{{ .Description }}" />
+    <meta itemprop="description" content="{{ .Description }}" />
+    <meta property="og:description" content="{{ .Description }}" />
+    <meta name="twitter:description" content="{{ .Description }}" />
+    <base href="{{ .Permalink }}">
+    <link rel="canonical" href="{{ .Permalink }}" itemprop="url" />
+    <meta name="url" content="{{ .Permalink }}" />
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta name="author" content="{{ .Site.Params.author }}">
+    <meta charset="utf-8" />
+    <meta property="og:locale" content="{{ .Language.Lang }}">
+    <meta name="language" content="{{ .Language.LanguageName }}">
 
-    <link rel="icon" type="image/x-icon" href="{{ $.Site.Params.favicon | relURL }}">
-    <link rel="apple-touch-icon" href="{{ $.Site.Params.favicon | relURL }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <link rel="icon" type="image/x-icon" href="{{ .Site.Params.favicon }}">
+    <link rel="apple-touch-icon" href="{{ .Site.Params.favicon }}">
 
     <link rel="preload" href="{{ "/css/bulma.min.css" | relURL }}" as="style">
     <link rel="preload" href="{{ "/css/main.css" | relURL }}" as="style">
 
     <link rel="stylesheet" href="{{ "/css/bulma.min.css" | relURL }}">
     <link rel="stylesheet" href="{{ "/css/main.css" | relURL }}">
+
+    {{ if .IsHome }}
+    <script type='application/ld+json'>
+        {
+            "@context": "http://www.schema.org",
+            "@type": "WebSite",
+            "name": "{{ .Site.Title }}",
+            "alternateName": "{{ .Site.Title }}",
+            "url": "{{ .Site.BaseURL }}"
+        }
+    </script>
+    {{ end }}
+
+    {{ if eq .Type "post" }}
+    <script type="application/ld+json">
+{
+"@context": "https://schema.org/",
+"@type": "Article",
+"mainEntityOfPage": {
+"@type": "WebPage",
+"@id": "{{ .Site.BaseURL }}"
+},
+"headline": "{{ .Title }}",
+"description": "{{ .Description }}",
+"image": {
+"@type": "ImageObject",
+"url": "{{ .Params.thumbnail }}",
+"width": "696",
+"height": "696"
+},
+"author": {
+"@type": "Person",
+"name": "{{ .Site.Params.author }}"
+},
+"publisher": {
+"@type": "Organization",
+"name": "{{ .Site.Params.author }}",
+"logo": {
+  "@type": "ImageObject",
+  "url": "{{ .Site.Params.logo }}",
+  "width": "600",
+  "height": "60"
+}
+},
+"datePublished": "{{ .Date }}",
+"dateModified": "{{ .Params.mod_date }}"
+}
+</script>
+
+{{ else }}
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "{{ .Title }}",
+    "description": "{{ .Description }}",
+    "publisher": {
+        "@type": "Organization",
+        "name": "{{ .Site.Params.author }}"
+    }
+}
+</script>
+
+
+    {{ end }}
 </head>

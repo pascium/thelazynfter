@@ -1,12 +1,11 @@
 ---
-title: "Software Used To Make NFTs"
-headline: "Software Used To Make NFTs"
-description: "There are many software's to choose from when creating NFTs. Check this list for free and paid programs you can start using today."
+title: "What Programs Are Used to Create NFT Art"
+description: "What tools can you use to make NFTs? here is a list of free and paid programms that I and others use to create non-fungible tokens."
 thumbnail: "https://bulma.io/images/placeholders/1280x960.png"
 thumbnail_alt: "the is a alt tag"
-date: 2022-04-20T17:06:41+02:00
-mod_date: 2022-05-01T15:34:41+02:00
-type: "NFT"
+date: 2022-04-20T17:06:41+01:00
+mod_date: 2022-04-22T18:44:41+01:00
+type: "post"
 ---
 There are many different types of NFT art, which can require a variety of different software programs.
 

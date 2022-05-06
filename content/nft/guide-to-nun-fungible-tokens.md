@@ -1,12 +1,11 @@
 ---
 title: "The Basic Facts Of Non-Fungible Tokens"
-headline: "The Basic Facts Of Non-Fungible Tokens"
 description: "Non-fungible tokens are digital assets that contain identifying information recorded in smart contracts. Learn more in this beginners guide to Non-fungible tokens"
 thumbnail: "https://bulma.io/images/placeholders/1280x960.png"
 thumbnail_alt: "the is a alt tag"
 date: 2022-04-20T17:03:18+02:00
 mod_date: 2022-04-20T17:03:18+02:00
-type: "NFT"
+type: "post"
 ---
 Have you ever wanted to own a piece of art? Do you think that your collection is complete, and there is nothing more out there for you to desire? Well, I have news for you.
 

@@ -1,12 +1,11 @@
 ---
 title: "What is The Least Expensive Way to Make an NFT?"
-headline: "What is The Least Expensive Way to Make an NFT?"
 description: "ever wanted to create your own digital collectibles but lack the funds for it? checkout my list of ways you can make NFTs on a budget."
 thumbnail: "https://bulma.io/images/placeholders/1280x960.png"
 thumbnail_alt: "the is a alt tag"
 date: 2022-04-20T17:00:56+02:00
 mod_date: 2022-04-20T17:00:56+02:00
-type: "NFT"
+type: "post"
 ---
 If you're looking for ways to make an NFTs on a budget, there are a few different ways to do this. Many of them have a relatively low cost associated with them.
 

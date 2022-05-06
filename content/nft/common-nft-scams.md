@@ -1,12 +1,11 @@
 ---
-title: "NFT Scams 2022 - Thelazynfter"
-headline: "Common NFT Scams in 2022 You Need To Know About And Why?"
-description: "Thinking of buying one or more NFTs? Check this list of NFT scam first so you don't lose your money and be part of a pyramid scam."
+title: "NFT Scams 2022"
+description: "NFT scammers send fake emails so they can steal your crypto by making fake websites. Learn about these and other scams when trading NFTs and other crypto."
 thumbnail: "https://bulma.io/images/placeholders/1280x960.png"
 thumbnail_alt: "the is a alt tag"
 date: 2022-04-20T17:02:09+02:00
-mod_date: 2022-05-01T13:24:00+02:00
-type: "NFT"
+mod_date: 2022-05-06T20:39:28+02:00
+type: "post"
 ---
 NFT scams are nothing new. They occur every year because there is an abundance of gullible people who, despite having heard the warnings time and time again, still end up losing their money to someone's scam.
 

@@ -1,12 +1,10 @@
 ---
-title: "Improve Disability? Let Me Know What's Wrong."
+title: "Disability Ploicy"
 description: "Do you have a disability and find something not working on my site? use this page for more information or contact me directly."
-headline: "Improve Disability? Let Me Know What's Wrong."
-keywords: "disability, disability policy"
 thumbnail: "/img/page/sci-fi_wheelchair_out.webp"
 thumbnail_alt: "sci-fi wheelchair in the Metaverse"
-date: 2022-04-19T18:50:26+01:00
-mod_date: 2022-04-22T18:13:26+01:00
+date: 2022-04-19T18:50:26+02:00
+mod_date: 2022-05-06T20:43:26+02:00
 ---
 TheLazyNFTer is working hard to make this website as accessible as possible for everyone, including does who have to use special devices.
 

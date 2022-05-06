@@ -1,11 +1,11 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 description: ""
-headline: ""
 thumbnail: ""
 thumbnail_alt: ""
 date: {{ .Date }}
-type: "NFT"
+mod_date: {{ .Date }}
+type: "post"
 ---
 <!-- {{< affiliate >}} -->
 <!-- <figure>

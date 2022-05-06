@@ -1,25 +1,32 @@
 {{ define "main" }}
 
-<main>
-    <section class="hero is-medium">
+<main role="main">
+    <section class="hero is-white is-fullheight">
         <div class="hero-body">
             <div class="container">
-                <div class="columns is-vcentered">
-                    <div class="column is-5 is-offset-1 landing-caption">
-                        <h1 class="title is-1 is-bold is-spaced">
-                            {{ .Params.headline }}
+                <div class="columns  is-vcentered reverse-columns">
+                    <div class="column
+     is-10-mobile
+     is-10-tablet
+     is-5-desktop
+     is-5-widescreen
+     is-5-fullhd ">
+                        <h1 class="title titled is-1">
+                            I Make Non Fungible Tokens Easier
                         </h1>
-                        <p class="subtitle is-5 is-muted">{{ .Description }}</p>
-                        <div class="button-wrap">
-                            <a href="/nft/how-to-use-ai-art-generator/" class="button is-link is-rounded">AI Art Generator</a>
-                            <a href="#latest" class="button cta is-rounded primary-btn raised">
-                                Browse Articles
-                            </a>
+                        <p class="mb-4 mt-6 subtitled subtitle">Browse article's and step by step guide's that are designed for absolute beginners. Easy to read without the technical mumbo jumbo.</p>
+                        <div class="buttons">
+                            <a href="/nft/" target="_self" class="button is-medium is-info is-light my-5">NFT Guides</a>
                         </div>
                     </div>
-                    <div class="column is-5">
-                        <figure class="image is-4by3">
-                            <img src="/img/page/biplane_on_ceiling.webp" alt="AI generated image of a biplane hanging on bedroom eiling" width="500" height="500">
+                    <div class="column
+     is-10-mobile
+     is-10-tablet
+     is-4-desktop
+     is-7-widescreen
+     is-4-fullhd is-offset-1-fullhd">
+                        <figure class="image is-square">
+                            <img src="/img/page/biplane_on_ceiling.webp" alt="ai generated images of a biplane hanging on bedroom ceiling" width="433" height="433">
                         </figure>
                     </div>
 
@@ -28,73 +35,78 @@
         </div>
     </section>
 
-<section class="section is-medium">
-    <div class="container">
-        <div class="title-wrapper has-text-centered">
-            <h2 class="title is-2">Topics</h2>
-            <p class="subtitle is-5 is-muted py-4">There is so much to talk about, here is a 10.000 feet overview of what I write about.</p>
-            <div class="divider is-centered"></div>
-        </div>
-
-        <div class="columns is-vcentered mt-6">
-            <div class="column is-4 is-offset-2">
-                <h3 class="title is-3 mb-10 is-title-reveal">Generative NFTs</h3>
-                <p class="subtitle is-5 is-muted">With AI becoming more and more powerful as time moves one, many non-artist are able to create art with the help of machine learning.</p>
-            </div>
-            <div class="column is-5">
-                <img src="/img/page/virtual_reality_corridor.webp" alt="virtual reality corridor created by AI" loading="lazy" height="500" width="500">
-            </div>
-        </div>
-
-        <div class="columns is-vcentered mt-6">
-            <div class="column is-5 is-offset-1">
-                <img src="/img/page/sci-fi_city.webp" alt="sci-fi city with neon signs generated with AI" loading="lazy" height="500" width="500">
-            </div>
-            <div class="column is-4 is-offset-1">
-                <h3 class="title is-3 mb-10 is-title-reveal">Blockchain Gaming and Apps.</h3>
-                <p class="subtitle is-5 is-muted">These are also called DeFi games or DApps (decentralized applications). These applications run on an open source P2P blockchain network.</p>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-
-
-
-<section class="section" id="latest">
-    <div class="container">
-        <div class="has-text-centered py-6">
-            <h2 class="title">Latest articles on NFTs</h2>
-            <p>Below you find a collection of recent articles from the non fungible section.</p>
-        </div>
-        <div class="columns">
-
-            {{ range ( first 4 ( where .Site.Pages "Type" "NFT" ).ByDate.Reverse ) }}
-            <div class="column is-3">
-                <a href="{{ .RelPermalink }}" target="_self">
-                    <article class="card">
-                        <div class="card-image">
-                            <figure class="image is-4by3">
-                                <img src="{{ .Params.thumbnail | relURL }}" alt="{{ .Params.thumbnail_alt }}" loading="lazy" height="318" width="239">
-                            </figure>
+    <section class="hero is-white is-fullheight">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns  is-vcentered">
+                    <div class="column
+      is-10-mobile is-offset-1-mobile
+      is-10-tablet is-offset-1-tablet
+      is-4-desktop is-offset-1-desktop
+      is-4-widescreen is-offset-1-widescreen
+      is-4-fullhd is-offset-1-fullhd">
+                        <figure class="image is-square">
+                            <img src="/img/page/sci-fi_city.webp" alt="sci-fi city with neon bilboards" height="433" width="433" loading="lazy">
+                        </figure>
+                    </div>
+                    <div class="column
+      is-10-mobile is-offset-1-mobile
+      is-10-tablet is-offset-1-tablet
+      is-5-desktop is-offset-1-desktop
+      is-5-widescreen is-offset-1-widescreen
+      is-5-fullhd is-offset-1-fullhd">
+                        <h2 class="titled title is-2 mb-6">
+                            Learn To Make Art With Machine Learning
+                        </h2>
+                        <p class="subtitled subtitle">
+                            A no code step by step guide that teaches you how to make art with the help of AI. Includes a free download as a bonus.
+                        </p>
+                        <div class="buttons">
+                            <a href="/nft/how-to-use-ai-art-generator/" target="_self" class="button is-medium is-info is-light my-5">AI Generator Tutorial</a>
                         </div>
-                        <div class="card-content">
+                    </div>
 
-                            <div class="content">
-                                <h3 class="title is-5">{{ .Params.headline }}</h3>
-                            </div>
-                        </div>
-                    </article>
-                </a>
+                </div>
             </div>
-            {{ end }}
         </div>
-        <div class="has-text-centered my-5">
-            <a href="/nft/" target="_self" class="button is-link is-rounded">Browse all NFT Articles</a>
+    </section>
+
+    <section class="hero is-white is-fullheight">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns  is-vcentered reverse-columns">
+                    <div class="column
+      is-10-mobile is-offset-1-mobile
+      is-10-tablet is-offset-1-tablet
+      is-5-desktop is-offset-1-desktop
+      is-5-widescreen is-offset-1-widescreen
+      is-5-fullhd is-offset-1-fullhd">
+                        <h2 class="title titled is-2 mb-6">
+                            Software You Need To Create NFT Art
+                        </h2>
+                        <p class="subtitle subtitled">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum cupiditate dolorum vitae dolores
+                            nesciunt totam magni quas.
+                        </p>
+                        <div class="buttons">
+                            <a href="/nft/programs-for-creating-nft-art/" target="_self" class="button is-medium is-info is-light my-5">NFT Software List</a>
+                        </div>
+                    </div>
+                    <div class="column
+      is-10-mobile is-offset-1-mobile
+      is-10-tablet is-offset-1-tablet
+      is-4-desktop is-offset-1-desktop
+      is-4-widescreen is-offset-1-widescreen
+      is-4-fullhd is-offset-1-fullhd">
+                        <figure class="image is-square">
+                            <img src="/img/page/virtual_reality_corridor.webp" alt="game corridor in virtual reality" width="433" height="433" laoding="lazy">
+                        </figure>
+                    </div>
+
+                </div>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 </main>
 
 

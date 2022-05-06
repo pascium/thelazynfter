@@ -1,6 +1,6 @@
 baseURL = "https://thelazynfter.blog/"
 languageCode = "en"
-title = "thelazynfter"
+title = "Thelazynfter"
 description = "Explore decentralized gaming guides, tips and tricks. All created and researched by your talkative neighborhood blockchain and NFT blog."
 theme = "cryptotheme"
 
@@ -13,3 +13,9 @@ unsafe = true
 [params]
     favicon = "/img/favicon.ico"
     logo = "/img/thelazynfter_logo.webp"
+    author = "Thelazynfter"
+
+[sitemap]
+    changefreq = "weekly"
+    filename = "sitemap.xml"
+    priority = 0.8

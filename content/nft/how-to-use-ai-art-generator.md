@@ -1,21 +1,17 @@
 ---
-title: "Free AI Art Generator Training Guide"
-headline: "Free AI Art Generator Training Guide"
-description: "This free training guide will teach you how to use an AI art generator with google colab. No coding and beginner friendly."
+title: "Free ai Art Generator Guide"
+description: "Full guide on how to use an AI art generator right inside your Google account. Including free code download."
 thumbnail: "https://bulma.io/images/placeholders/1280x960.png"
 thumbnail_alt: "the is a alt tag"
 date: 2022-04-20T17:05:33+02:00
-mod_date: 2022-05-01T13:28:00+02:00
-type: "NFT"
-guide_lock: true
+mod_date: 2022-05-06T20:31:33+02:00
+type: "post"
 ---
 Welcome to my AI art guide. I am so glad that you decided to come and follow this guide.
 
 I will teach you how to use AI to generate unique art right inside your google account without writing any code.
 
 Heck, you can just clone the same AI that I have been using directly to your google drive.
-
-{{< figure src="/img/post/go_screenshot.webp" width="947" height="433" alt="screenshot of the redirect page.">}}
 
 When it's done, you will be redirected to my google drive so you can clone it to your own google drive.
 

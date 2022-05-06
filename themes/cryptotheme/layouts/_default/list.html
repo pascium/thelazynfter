@@ -1,42 +1,45 @@
 {{ define "main" }}
 <main>
-    <section class="hero is-medium">
-        <div class="hero-body has-text-centered">
-            <h1 class="title">
-                {{ .Params.headline }}
-            </h1>
-            <p class="subtitle">
-                {{ .Description }}
-            </p>
-        </div>
-    </section>
-
-    <div class="section">
-        <div class="container">
-            <div class="columns is-flex-wrap-wrap">
+    <article class="container">
+        <div class="section">
+            <div class="columns">
+                <div class="column has-text-centered has-background-info py-6 mb-6">
+                    <h1 class="title has-text-white">{{ .Title }}</h1><br>
+                    <p class="subtitle has-text-white">
+                        {{ .Description }}
+                    </p>
+                </div>
+            </div>
+            <div class="row columns is-multiline">
                 {{ range .Pages.ByDate.Reverse }}
-                <div class="column is-half">
-                    <a href="{{ .RelPermalink }}" target="_self" aria-label="read {{ .Params.headline }} article.">
-                        <article class="card">
-                            <div class="card-image">
-                                <figure class="image is-4by3">
-                                    <img src="{{ .Params.thumbnail }}" alt="{{ .Params.thumbnail_alt }}" loading="lazy" width="660" height="495">
-                                </figure>
-                            </div>
-                            <div class="card-content">
-
-                                <div class="content">
-                                    <h2 class="title is-4">{{ .Params.headline }}</h2>
-                                    <p>{{ .Description }}</p>
+                <article v-for="card in cardData" class="column is-4">
+                    <div class="card large">
+                        <div class="card-image">
+                            <figure class="image is-16by9">
+                                <img src="{{ .Params.thumbnail }}" alt="{{ .Params.thumbnail_alt }}" loading="lazy">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <h2 class="title is-4">{{ .Title }}</h2>
+                                    <p class="subtitle is-6">{{ .Description }}</p>
                                 </div>
                             </div>
-                        </article>
-                    </a>
-                </div>
+                            <div class="content">
+                                <div class="buttons">
+                                    <a href="{{ .RelPermalink }}" target="_self" aria-label="Read {{ .Params.headline }} article" class="button is-medium is-info is-light my-5">Read More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
                 {{ end }}
             </div>
         </div>
-    </div>
+    </article>
+
+
 
 </main>
 

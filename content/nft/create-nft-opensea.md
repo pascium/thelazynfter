@@ -1,11 +1,11 @@
 ---
-title: "OpenSea NFT Guide - Create and Sell NFT"
+title: "OpenSea NFT Guide: Create and Sell NFT"
 description: "In this guide I will explain how you can create your own digital NFT and sell it on the OpenSea marketplace."
-headline: "OpenSea NFT Guide: Create and Sell Digital NFT"
 thumbnail: "/img/post/create_nfts.webp"
 thumbnail_alt: "blue background with NFT letters in circle"
 date: 2022-04-24T18:09:19+02:00
-type: "NFT"
+mod_date: 2022-05-06T20:18:19+02:00
+type: "post"
 ---
 In this guide I will explain how you can create your own digital NFT and sell it on the OpenSea marketplace.
 
