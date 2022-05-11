@@ -4,7 +4,9 @@
         <div class="section">
             <div class="columns">
                 <div class="column has-text-centered has-background-link py-6 mb-6">
+                    <header>
                     <h1 class="title has-text-white">{{ .Title }}</h1><br>
+                    </header>
                     <p class="subtitle has-text-white">
                         {{ .Description }}
                     </p>
@@ -12,7 +14,7 @@
             </div>
             <div class="row columns is-multiline">
                 {{ range .Pages.ByDate.Reverse }}
-                <article v-for="card in cardData" class="column is-4">
+                <section v-for="card in cardData" class="column is-4">
                     <div class="card large">
                         <div class="card-image">
                             <figure class="image is-16by9">
@@ -33,7 +35,7 @@
                             </div>
                         </div>
                     </div>
-                </article>
+                </section>
                 {{ end }}
             </div>
         </div>
