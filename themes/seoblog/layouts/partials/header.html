@@ -1,0 +1,11 @@
+<header role="banner" class="brandbar">
+  <img src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }} logo" width="62.5" height="25">
+  <button id="menu-btn" aria-label="open menu" aria-controls="main menu" aria-expanded="false">&#x2630;</button>
+  <nav class="main-nav" id="main-menu">
+    <ul>
+      {{ range .Site.Menus.main }}
+                <li><a href="{{ .URL }}" target="_self">{{ safeHTML .Name }}</a></li>
+            {{ end }}
+    </ul>
+  </nav>
+</header>

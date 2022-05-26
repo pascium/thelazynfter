@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+<article class="single-page">
+    <header class="single-header">
+        <figure aria-hidden="true">
+            <img src="{{ .Params.thumbnail }}" title="{{ .Params.thumbnail_alt }}" alt="{{ .Params.thumbnail_alt }}" width="614" height="345">
+        </figure>
+        {{ if eq .Params.affiliate "true" }}
+
+        <small class="affiliate" aria-label="important affiliate notice">
+            <strong>Affiliate notice.</strong>
+            <p>Before continuing please note that this page contains affiliate links.</p>
+            <p>I receive a small commission if you sign-up, download, or buy after clicking on links markt with (#ad).</p>
+        </small>
+
+        {{ end }}
+
+        <h1>{{ .Params.headline }}</h1>
+        <p>{{ .Params.intro }}</p>
+    </header>
+
+    <div class="single-content">
+        {{ .Content }}
+    </div>
+</article>
+
+{{ end }}

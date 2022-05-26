@@ -1,21 +1,100 @@
-baseURL = "https://thelazynfter.blog/"
-languageCode = "en"
-title = "Thelazynfter"
-description = "Explore decentralized gaming guides, tips and tricks. All created and researched by your talkative neighborhood blockchain and NFT blog."
-theme = "cryptotheme"
+baseURL = 'https://thelazynfter.blog/'
+languageCode = 'en'
+title = 'Thelazynfter'
+theme = 'seoblog'
 
-disableHugoGeneratorInject = true
-disableKinds = ["taxonomy", "taxonomyTerm"]
 enableRobotsTXT = true
-[markup.goldmark.renderer]
-unsafe = true
-
-[params]
-    favicon = "/favicon.ico"
-    logo = "/img/thelazynfter-logo.svg"
-    author = "Thelazynfter"
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [sitemap]
-    changefreq = "weekly"
-    filename = "sitemap.xml"
-    priority = 0.8
+  changefreq = 'monthly'
+  filename = 'sitemap.xml'
+  priority = 0.5
+
+[markup.goldmark.renderer] 
+    unsafe= true
+
+
+
+[params]
+    logo = "img/thelazynfter_logo.svg"
+
+
+
+[menu]
+
+    [[menu.main]]
+    identifier = "nft"
+    name = "NFT"
+    url = "/nft/"
+    weight = 1
+
+    [[menu.main]]
+    identifier = "mining"
+    name = "Mining"
+    url = "/mining/"
+    weight = 2
+
+    [[menu.main]]
+    identifier = "wallets"
+    name = "Wallet"
+    url = "#"
+    weight = 3
+
+    [[menu.main]]
+    identifier = "aiart"
+    name = "AI Art"
+    url = "https://forms.gle/bLskwEAyvcnBhrS68"
+    weight = 4
+
+
+
+
+    [[menu.foot]]
+    identifier = "privacy"
+    name = "Privacy"
+    url = "/privacy-policy/"
+    weight = 1
+
+    [[menu.foot]]
+    identifier = "disclaimer"
+    name = "Disclaimer"
+    url = "/disclaimer/"
+    weight = 2
+
+    [[menu.foot]]
+    identifier = "disability"
+    name = "Disability"
+    url = "/disability/"
+    weight = 3
+
+    [[menu.foot]]
+    identifier = "contact"
+    name = "Contact"
+    url = "https://forms.gle/mYVi4YpuUNGoPgu96"
+    weight = 4
+
+
+
+[privacy]
+  [privacy.disqus]
+    disable = false
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.instagram]
+    disable = true
+    simple = false
+  [privacy.twitter]
+    disable = true
+    enableDNT = true
+    simple = false
+  [privacy.vimeo]
+    disable = true
+    enableDNT = true
+    simple = false
+  [privacy.youtube]
+    disable = false
+    privacyEnhanced = true

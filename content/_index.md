@@ -1,6 +1,10 @@
 ---
-title: "Non Fungible Token Blog"
-description: "Best Non-Fungible Token Blog. Browse the latest guides, tips and tricks, ai art and articles. Created for beginners looking to get started with NFT."
-date: 2022-03-18T20:51:38+02:00
-mod_date: 2022-05-06T20:12:51+02:00
+title: "Mining and Non Fungible Tokens Explained"
+description: "Everyone knows that Digital currency can be traded or exchanged for other coins. But it’s more than that, my guides will make virtual currency understandable."
+headline: "digital currencies are complicated"
+intro: "Everyone knows that Digital currency can be traded or exchanged for other coins. But it’s more than that, my guides will make virtual currency understandable."
+date: 2022-05-21T19:42:56+02:00
+mod_date: 2022-05-21T19:42:56+02:00
+
 ---
+

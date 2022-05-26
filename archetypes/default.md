@@ -1,16 +1,14 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
+headline: "{{ replace .Name "-" " " | title }}"
 description: ""
-thumbnail: ""
-thumbnail_alt: ""
+intro: ""
 date: {{ .Date }}
 mod_date: {{ .Date }}
-type: "post"
+thumbnail: ../../
+thumbnail_alt: "this is the alt tag"
+affiliate: "false"
+type: "article"
+
 ---
-<!-- {{< affiliate >}} -->
-<!-- <figure>
-    <img src="/img/post/fotor_nft_screenshot.webp" alt="screenshot fotor.com nft creator" loading="lazy" width="762" height="287">
-    <figcaption>
-        <small>image by: <a href="https://www.fotor.com/nft-creator/" target="_blank">Fotor.com</a></small>
-    </figcaption>
-</figure> -->
+

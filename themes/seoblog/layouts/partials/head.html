@@ -1,0 +1,96 @@
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5.0, minimum-scale=1">
+<title>{{ .Title }} &#124; {{ .Site.Title }}</title>
+<meta name="description" content="{{ .Description}}">
+<link rel="canonical" href="{{ .Permalink }}"/>
+<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
+<link rel="preload" href="{{ "css/norm.min.css" | absURL }}" as="style">
+<link rel="preload" href="{{ "css/norm.min.css" | absURL }}" as="style">
+
+<link rel="stylesheet" href="{{ "css/norm.min.css" | absURL }}">
+<link rel="stylesheet" href="{{ "css/main.css" | absURL }}">
+
+<link rel="shortcut icon" href="{{ "img/icons/apple-touch-icon.png" | absURL }}">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ "img/icons/apple-touch-icon.png" | absURL }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ "img/icons/favicon-32x32.png" | absURL }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ "img/icons/favicon-16x16.png" | absURL }}">
+<link rel="manifest" href="{{ "img/icons/site.webmanifest" | absURL }}">
+<link rel="mask-icon" href="{{ "img/icons/safari-pinned-tab.svg" | absURL }}" color="#ffa500">
+<meta name="msapplication-TileColor" content="#ffa500">
+<meta name="theme-color" content="#f4f4f4">
+
+{{ if .IsHome }}
+<script type='application/ld+json'>
+    {
+        "@context": "http://schema.org",
+        "@type": "WebSite",
+        "url": "{{ .Site.BaseURL }}",
+        "name": "{{ .Site.Title }}",
+        "alternateName": "{{ .Site.Title }}"
+    }
+    </script>
+{{ end }}
+
+{{ if eq .Params.type "article" }}
+
+<script type="application/ld+json">
+    { "@context": "https://schema.org", 
+     "@type": "Article",
+     "headline": "{{ .Title }}",
+     "alternativeHeadline": "{{ .Title }}",
+     "image": "{{ .Params.thumbnail }}",
+     "author": "{{ .Site.Title }}",
+     "award": "Crypto Geek",
+     "editor": "{{ .Site.Title }}", 
+    "publisher": {
+        "@type": "Person",
+        "name": "{{ .Site.Title }}",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "{{ .Site.Params.logo }}"
+        }
+      },
+     "url": "{{ .Site.BaseURL }}",
+       "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "{{ .Permalink }}"
+      },
+     "datePublished": "{{ .Date }}",
+     "dateCreated": "{{ .Date }}",
+     "dateModified": "{{ .Params.mod_date }}",
+     "description": "{{ .Description }}",
+     "articleBody": "{{ .Content }}"
+     }
+    </script>
+
+{{ end }}
+
+{{ if eq .Params.type "page" }}
+
+<script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "WebPage",
+        "name": "{{ .Title }}",
+        "description": "{{ .Params.intro }}",
+        "publisher": {
+            "@type": "Person",
+            "name": "{{ .Site.Title }}"
+        }
+    }
+    </script>
+
+{{ end }}
+
+{{ if eq .Params.type "list" }}
+
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Table",
+      "about": "list of {{ .Title }} articles"
+    }
+    </script>
+
+{{ end }}

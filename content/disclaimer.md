@@ -1,17 +1,17 @@
 ---
-title: "Disclaimer Policy"
-description: "Want to use any of the arterial on thelazynfter.blog website, make sure to read this page first."
-thumbnail: "/img/page/sci-fi_robot_police_out.webp"
-thumbnail_alt: "sci-fi robot police in the Metaverse"
-date: 2022-04-19T18:43:05+02:00
-mod_date: 2022-05-06T20:43:05+02:00
+title: "Disclaimer"
+headine: "Disclaimer"
+description: "It is not allowed to reuse photo material, or other materials on this website without express written permission from TheLazyNFTer."
+intro: "The use of the information on this website is free as long you do not sell or misuse this information."
+date: 2022-05-20T16:50:33+02:00
+mod_date: 2022-05-20T16:50:33+02:00
+thumbnail: ../../img/bg/sci-fi_wheelchair.webp
+thumbnail_alt: "Metaverse wheelchair"
+affiliate: "false"
+type: "page"
+
 ---
-
-The use of the information on this website is free as long you do not sell or misuse this information.
-
-It is not allowed to reuse text, photo material, or other materials on this website without express written permission from TheLazyNFTer.
-
-The intellectual property rests with TheLazyNFTer unless otherwise stated.
+It is not allowed to reuse photo material, or other materials on this website without express written permission from TheLazyNFTer.
 
 ## No Guarantee On Correctness.
 
