@@ -1,48 +1,57 @@
 ---
 title: "Disclaimer"
-headine: "Disclaimer"
-description: "It is not allowed to reuse photo material, or other materials on this website without express written permission from TheLazyNFTer."
-intro: "The use of the information on this website is free as long you do not sell or misuse this information."
-date: 2022-05-20T16:50:33+02:00
-mod_date: 2022-05-20T16:50:33+02:00
-thumbnail: ../../img/bg/sci-fi_wheelchair.webp
-thumbnail_alt: "Metaverse wheelchair"
-affiliate: "false"
-type: "page"
+description: ""
+layout: "page"
 
+menu:
+  footer:
+    name: "Disclaimer"
+    weight: 3
+
+
+date: 2022-06-06T14:28:54+02:00
+mod_date: 2022-06-06T14:28:54+02:00
 ---
-It is not allowed to reuse photo material, or other materials on this website without express written permission from TheLazyNFTer.
+If you require any more information or have any questions about our site's disclaimer, please feel free to contact us by google form.
 
-## No Guarantee On Correctness.
+{{< toc >}}
 
-All the content on this website is based on my research and personal experience.
+## Disclaimers for TheLazyNFTer
 
-Errors that arise and are recognizable as programming or typing errors, never form a reason to claim or assume a contract or agreement with TheLazyNFTer.
+All the information on this website - https://thelazynfter.blog/ - is published in good faith and for general information purpose only.
 
-TheLazyNFTer strives for a website that is as current as possible.
+TheLazyNFTer does not make any warranties about the completeness, reliability and accuracy of this information. Any action you take upon the information you find on this website (TheLazyNFTer), is strictly at **your own risk**.
 
-If despite these efforts, the information or content on this website is incomplete or incorrect, we cannot accept any liability.
+TheLazyNFTer will not be liable for any losses and/or damages in connection with the use of our website.
 
-The information and/or products on this website are offered without any form of guarantee and/or claim to correctness.
+From our website, you can visit other websites by following hyperlinks to such external sites. While we strive to provide only quality links to useful and ethical websites, we have no control over the content and nature of these sites.
 
-I reserve the right to change, remove or repost these materials without prior notice.
+These links to other websites do not imply a recommendation for all the content found on these sites. Site owners and content may change without notice and may occur before we have the opportunity to remove a link which may have gone 'bad'.
 
-TheLazyNFTer accepts no liability for any information to which we refer via hyperlinks.
+Please be also aware that when you leave our website, other sites may have different privacy policies and terms which are beyond our control.
 
-## Affiliate And Sponsored Content.
+Please be sure to check the Privacy Policies of these sites as well as their "Terms of Service" before engaging in any business or uploading any information.
 
-I use affiliate links to provide a way for us to earn income from my website/blog without having to use ads.
+## Affiliate disclosure
 
-These affiliate links are at no cost to you, the seller or affiliate network is covering the cost and will pay me for referring you to them.
+Thelazynfter is an affiliate of many online tools, services, and products. Links on this website may be affiliate links and [thelazynfter](/) may earn commissions for purchases and sign up's that are made by visitors to the site.
 
-This means you won’t pay for anything extra.
+These are promotional links that can be used to track a visitor’s purchase and credit it to TheLazyNFTer.
 
-It is also possible that I get paid to review products, but this will not reflect on my opinion or review quality.
+This comes at no additional cost to you, my goal is to provide the very best reviews and recommendations. If you have any questions, please [contact](/contact/) me.
 
-If the product is not good or the experience is below my recommendations, then I will not recommend the product even if I get paid to review it.
+The content produced on thelazynfter.blog and other materials is intended for informational and educational purposes only.
 
-because affiliate links are from external third-parties they can impact your privacy in a certain way, that is why you need to read my privacy policy for more information.
+The content is not designed to provide professional advice that you might get from a certified financial expert or legal expert.
 
-## Updates.
+Reliance on any information on my website or guides is done so at your own risk. The information is not intended to provide any certain type of financial or business outcome.
 
-Should this disclaimer change, you will find the most recent version of the disclaimer from TheLazyNFTer on this page.
+If you have any questions regarding this disclaimer, please contact me.
+
+## Consent
+
+By using our website, you hereby consent to our disclaimer and agree to its terms.
+
+## Update
+
+Should we update, amend or make any changes to this document, those changes will be prominently posted here.

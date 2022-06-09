@@ -1,0 +1,128 @@
+{{ define "main" }}
+<header class="hero has-background-dark is-fullheight">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns  is-vcentered reverse-columns">
+                <div class="column
+         is-10-mobile
+         is-10-tablet
+         is-5-desktop
+         is-5-widescreen
+         is-5-fullhd ">
+                    <h1 class="title titled is-1 mb-6 has-text-white">
+                        {{ .Params.headline }}
+                    </h1>
+                    <p class="has-text-light mb-5 subtitled subtitle">{{ .Params.intro }}</p>
+                    <div class="buttons">
+                          <a href="https://forms.gle/5GUu3RTNpcXnG5a67" target="_blank" rel="nofollow noopener" class="button is-warning is-medium is-rounded"><strong>Yes, Teach Me How</strong></a>
+                    </div>
+                </div>
+                <div class="column
+         is-10-mobile
+         is-10-tablet
+         is-4-desktop
+         is-7-widescreen
+         is-4-fullhd is-offset-1-fullhd">
+                    <figure class="image is-square">
+                        <img class="fancy-border" src="{{ .Params.thumbnail }}" alt="{{ .Params.thumbnail_alt }}" width="662" height="662" title="{{ .Params.thumbnail_alt }}">
+                    </figure>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="hero is-white is-fullheight">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns  is-vcentered">
+                <div class="column
+         is-10-mobile is-offset-1-mobile
+         is-10-tablet is-offset-1-tablet
+         is-4-desktop is-offset-1-desktop
+         is-4-widescreen is-offset-1-widescreen
+         is-4-fullhd is-offset-1-fullhd">
+                    <figure class="image is-square">
+                        <img class="fancy-border" src="img/dystopian_tokyo_city.webp" width="368" height="368" alt="AI generated tokyo city in dystopian style" loading="lazy" title="AI generated tokyo city in dystopian style">
+                    </figure>
+                </div>
+                <div class="column
+         is-10-mobile is-offset-1-mobile
+         is-10-tablet is-offset-1-tablet
+         is-5-desktop is-offset-1-desktop
+         is-5-widescreen is-offset-1-widescreen
+         is-5-fullhd is-offset-1-fullhd">
+                    <h2 class="titled title is-size-2 mb-6">
+                        AI Makes Anyone a Digital Artist.
+                    </h2>
+                    <p class="subtitled subtitle">In the old day’s of making art, you had to have some degree of art skills to get an image on a piece of canvas.</p>
+                        <p class="subtitled subtitle">This also meant that only people that were blessed with talent in making art were able to make something decent.</p>
+                        <p class="subtitled subtitle">But with machine learning becoming more and more accessible to everyone, making art is now possible for you and me that suck at drawing.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="hero is-white is-fullheight">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns  is-vcentered reverse-columns">
+                <div class="column
+         is-10-mobile is-offset-1-mobile
+         is-10-tablet is-offset-1-tablet
+         is-5-desktop is-offset-1-desktop
+         is-5-widescreen is-offset-1-widescreen
+         is-5-fullhd is-offset-1-fullhd">
+                    <h2 class="title titled is-size-2 mb-6">
+                        No Fancy Requirements To Get Started.
+                    </h2>
+                    <p class="subtitle subtitled">
+                        When you hear the words artificial intelligence, the first thing that comes to mind is a big fat computer sitting in the corner of your house eating away at your electricity bill.
+                    </p>
+                    <p class="subtitle subtitled">
+                        But that’s completely wrong, this tool uses google cloud colab to host and runs the AI tool directly, you only need a computer and a internet connection.
+                    </p>
+                </div>
+                <div class="column
+         is-10-mobile is-offset-1-mobile
+         is-10-tablet is-offset-1-tablet
+         is-4-desktop is-offset-1-desktop
+         is-4-widescreen is-offset-1-widescreen
+         is-4-fullhd is-offset-1-fullhd">
+                    <figure class="image is-square">
+                        <img class="fancy-border" src="img/shipwreck_underwater.webp" alt="shipwreck underwater generated with AI" title="shipwreck underwater generated with AI" loading="lazy" width="368" height="368">
+                    </figure>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="hero is-medium has-background-light has-text-centered">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns is-centered">
+                <div class="column is-8">
+                    <h2 class="title titled is-size-2 mb-6">
+                        What Will You Make?
+                    </h2>
+                    <p class="subtitle subtitled">
+                        Sign up with your name and email, and get the step by step guide, link to the art generator, and a guide to promote your art on social media.
+                    </p>
+                    <div>
+                         <a href="https://forms.gle/5GUu3RTNpcXnG5a67" target="_blank" rel="nofollow noopener" class="button is-warning is-medium is-rounded"><strong>Sing Up Today</strong></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+{{ end }}

@@ -1,0 +1,35 @@
+<nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a class="navbar-item" href="{{ .Site.BaseURL }}" title="{{ .Site.Params.author }} Home">
+      <img src="{{ .Site.Params.logo | absURL }}" width="112" height="28" alt="official logo of {{ .Site.Params.author }}">
+    </a>
+
+    <a role="button" id="menu-btn" class="navbar-burger" aria-label="open menu" aria-expanded="false" data-target="mainNav">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="mainNav" class="navbar-menu">
+    <div class="navbar-start">
+        {{ $currentPage := . -}}
+        {{ range .Site.Menus.main -}}
+
+        <a class="navbar-item" href="{{ .URL | relLangURL }}"{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} class="navbar-item is-active" aria-current="page"{{ end }}>{{ .Name }}</a>
+
+        {{ end -}}
+
+    </div>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a href="https://forms.gle/5GUu3RTNpcXnG5a67" target="_blank" rel="nofollow noopener" class="button is-warning is-rounded">
+            <strong>Text To Art AI Guide</strong>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>

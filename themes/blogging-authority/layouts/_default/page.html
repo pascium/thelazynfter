@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<div class="section container my-6">
+
+    <div class="columns">
+        <article class="column is-three-fifths is-offset-2">
+
+            <header>
+                <h1 class="title is-size-1">{{ .Title }}</h1>
+                <p class="mb-5">Reading time: {{ math.Round (div (countwords .Content) 220.0) }} minutes.</p>
+            </header>
+
+            <div class="content">
+                {{ .Content }}
+            </div>
+
+        </article>
+
+    </div>
+
+</div>
+
+
+{{ end }}

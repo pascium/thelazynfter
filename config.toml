@@ -1,100 +1,44 @@
 baseURL = 'https://thelazynfter.blog/'
 languageCode = 'en'
-title = 'Thelazynfter'
-theme = 'seoblog'
-
-enableRobotsTXT = true
+title = 'TheLazyNFTer'
+description = 'Learn to generate unique art from text with AI. In this guide you will learn how to use a free machine learning tool to create cryptographic art without writing a single line of code.'
+theme = 'blogging-authority'
+copyright = "{year} - thelazynfter.blog"
 disableKinds = ["taxonomy", "taxonomyTerm"]
+enableRobotsTXT = true
 
-[sitemap]
-  changefreq = 'monthly'
-  filename = 'sitemap.xml'
-  priority = 0.5
-
-[markup.goldmark.renderer] 
+[markup.goldmark.renderer]
     unsafe= true
+[sitemap]
+    changefreq = 'monthly'
+    filename = 'sitemap.xml'
+    priority = 0.5
 
-
+menu = ['main', 'footer']
 
 [params]
-    logo = "img/thelazynfter_logo.svg"
-
-
-
-[menu]
-
-    [[menu.main]]
-    identifier = "nft"
-    name = "NFT"
-    url = "/nft/"
-    weight = 1
-
-    [[menu.main]]
-    identifier = "mining"
-    name = "Mining"
-    url = "/mining/"
-    weight = 2
-
-    [[menu.main]]
-    identifier = "wallets"
-    name = "Wallet"
-    url = "#"
-    weight = 3
-
-    [[menu.main]]
-    identifier = "aiart"
-    name = "AI Art"
-    url = "https://forms.gle/bLskwEAyvcnBhrS68"
-    weight = 4
-
-
-
-
-    [[menu.foot]]
-    identifier = "privacy"
-    name = "Privacy"
-    url = "/privacy-policy/"
-    weight = 1
-
-    [[menu.foot]]
-    identifier = "disclaimer"
-    name = "Disclaimer"
-    url = "/disclaimer/"
-    weight = 2
-
-    [[menu.foot]]
-    identifier = "disability"
-    name = "Disability"
-    url = "/disability/"
-    weight = 3
-
-    [[menu.foot]]
-    identifier = "contact"
-    name = "Contact"
-    url = "https://forms.gle/mYVi4YpuUNGoPgu96"
-    weight = 4
-
-
+    'author' = 'TheLazyNFTer'
+    'logo' = 'img/thelazynfter_logo.svg'
 
 [privacy]
-  [privacy.disqus]
-    disable = false
-  [privacy.googleAnalytics]
-    anonymizeIP = true
-    disable = true
-    respectDoNotTrack = true
-    useSessionStorage = true
-  [privacy.instagram]
-    disable = true
-    simple = false
-  [privacy.twitter]
-    disable = true
-    enableDNT = true
-    simple = false
-  [privacy.vimeo]
-    disable = true
-    enableDNT = true
-    simple = false
-  [privacy.youtube]
-    disable = false
-    privacyEnhanced = true
+    [privacy.disqus]
+        disable = true
+    [privacy.googleAnalytics]
+        anonymizeIP = true
+        disable = true
+        respectDoNotTrack = true
+        useSessionStorage = false
+    [privacy.instagram]
+        disable = true
+        simple = false
+    [privacy.twitter]
+        disable = true
+        enableDNT = false
+        simple = false
+    [privacy.vimeo]
+        disable = true
+        enableDNT = false
+        simple = false
+    [privacy.youtube]
+        disable = false
+        privacyEnhanced = true

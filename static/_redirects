@@ -1,0 +1,15 @@
+# Redirects from what the browser requests to what we serve
+# old post URL on the left new post URL on the right with only 1 space in between.
+
+/nft/ /learn/
+
+/nft/how-to-use-ai-art-generator/ /learn/
+/nft/common-nft-scams/ /learn/nft-scams/
+/nft/advantages-virtual-nft-museums/ /learn/
+/nft/guide-to-nun-fungible-tokens/ /learn/
+/nft/cheap-way-to-make-nft/ /learn/
+/nft/how-to-create-nft-and-sell-on-opensea/ /learn/
+/nft/create-nft-opensea/ /learn/
+
+/nft/software-to-create-nft-art/ /learn/software-to-create-nft-art/
+/nft/programs-for-creating-nft-art/ /learn/software-to-create-nft-art/

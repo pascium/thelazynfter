@@ -1,25 +1,28 @@
-const staticCacheName = 'site-static-v2';
-const dynamicCacheName = 'site-dynamic-v2';
+const staticCacheName = 'site-static-v0.0.1';
+const dynamicCacheName = 'site-dynamic-v0.0.1';
 const assets = [
   '/',
   '/index.html',
   '/js/main.js',
-  '/css/norm.min.css',
-  '/css/main.css',
+  '/css/bul.min.css',
+  '/css/style.css',
   '/404/',
+  '/img/icons/android-chrome-192x192.png',
+  '/img/icons/android-chrome-512x512.png',
   '/img/icons/apple-touch-icon.png',
-  '/img/icons/favicon-32x32.png',
+  '/img/icons/browserconfig.xml',
   '/img/icons/favicon-16x16.png',
+  '/img/icons/favicon-32x32.png',
+  '/img/icons/favicon.ico',
+  '/img/icons/mstile-150x150.png',
   '/img/icons/site.webmanifest',
   '/img/icons/safari-pinned-tab.svg',
-  '/img/thelazynfter_logo.svg',
-  '/img/bg/city_of_robots.webp',
-  '/img/bg/sci-fi_server_room.webp',
-  '/img/bg/sci-fi_wheelchair.webp',
-  '/img/bg/scifi_city_at_night.webp',
-  '/img/bg/scifi_game_arena.webp',
-  '/img/bg/scifi_planet.webp',
-  '/img/page/metaservse_at_night.webp'
+  '/thelazynfter_favicon.png',
+  '/img/dystopian_tokyo_city.webp',
+  '/img/free_nft_ad.webp',
+  '/img/shipwreck_underwater.webp',
+  '/img/steampunk_futuristic_city.webp',
+  '/img/thelazynfter_logo.svg'
 
 ];
 
@@ -75,7 +78,7 @@ self.addEventListener('fetch', evt => {
   //   }).catch(() => {
   //     if(evt.request.url.indexOf('.html') > -1){
   //       return caches.match('/pages/fallback.html');
-  //     } 
+  //     }
   //   })
   // );
 });

@@ -1,0 +1,31 @@
+<footer class="section">
+    <div class="container">
+        <div class="pb-5 is-flex is-flex-wrap-wrap is-justify-content-between is-align-items-center">
+            <div class="mr-auto mb-2">
+                <a class="is-inline-block" href="{{ .Site.BaseURL }}" title="{{ .Site.Params.author }} home">
+                    <img class="image" src="{{ .Site.Params.logo | absURL }}" alt="{{ .Params.thumbnail_alt }}" width="96" height="24"></a>
+            </div>
+            <div>
+                <ul class="is-flex is-flex-wrap-wrap is-align-items-center is-justify-content-center">
+                    {{ $currentPage := . -}}
+                    {{ range .Site.Menus.footer -}}
+
+                    <li class="mr-4"><a class="button is-white" href="{{ .URL | relLangURL }}"{{ if or ($currentPage.IsMenuCurrent "footer" .) ($currentPage.HasMenuCurrent "footer" .) }} class="navbar-item is-active" aria-current="page"{{ end }}>{{ .Name }}</a></li>
+
+                    {{ end -}}
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="pt-5" style="border-top: 1px solid #dee2e6;"></div>
+    <div class="container">
+        <div class="is-flex-tablet is-justify-content-between is-align-items-center">
+            <p>{{ replace .Site.Copyright "{year}" now.Year }}</p>
+        </div>
+        <div class="my-5">
+            <a target="_blank" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" loading="lazy" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br />This work by <a target="_blank" xmlns:cc="http://creativecommons.org/ns#" href="https://thelazynfter.blog/" property="cc:attributionName" rel="cc:attributionURL">TheLazyNFTer</a> is licensed under a <a target="_blank" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+        </div>
+    </div>
+</footer>
+
+<script src="{{ "js/main.js" | absURL }}"></script>

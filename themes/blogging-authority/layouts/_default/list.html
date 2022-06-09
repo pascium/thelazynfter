@@ -1,0 +1,43 @@
+{{ define "main" }}
+<header class="section container">
+    <div class="columns">
+        <div class="column is-two-thirds">
+            <h1 class="title is-size-1">{{ .Params.Headline }}</h1>
+            <p class="subtitle mt-5">
+                {{ .Description }}
+            </p>
+        </div>
+    </div>
+
+</header>
+
+<section class="container section">
+    <div class="columns features">
+        {{ range .Pages.ByDate.Reverse }}
+        <article class="column is-4">
+            <div class="card is-shady">
+                <div class="card-image">
+                    <figure class="image is-4by3" aria-hidden="true">
+                        <img src="{{ .Params.Thumbnail | absURL }}" alt="{{ .Params.thumbnail_alt }}">
+                    </figure>
+                </div>
+                <div class="card-content">
+                    <div class="content">
+                        <h2 class="title is-size-5">{{ .Title }}</h2>
+                        <p>{{ .Description }}</p>
+                        <a href="{{ .Permalink }}" aria-label="read article about {{ .Title }}" class="button is-link">Continue Reading</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        {{ end }}
+    </div>
+
+
+</section>
+
+
+
+
+
+{{ end }}
