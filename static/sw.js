@@ -14,6 +14,7 @@ const assets = [
   '/img/icons/favicon-16x16.png',
   '/img/icons/favicon-32x32.png',
   '/img/icons/favicon.ico',
+  '/img/icons/cc4.webp',
   '/img/icons/mstile-150x150.png',
   '/img/icons/site.webmanifest',
   '/img/icons/safari-pinned-tab.svg',
