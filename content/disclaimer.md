@@ -1,6 +1,7 @@
 ---
-title: "Disclaimer"
-description: ""
+title: "Disclaimer Policy of TheLazyNFTer"
+description: "Information found on thelazynfter.blog is not financial advice, only for entertainment and educational purposes. Read this disclaimer document for more info."
+headline: "Disclaimer Policy"
 layout: "page"
 
 menu:

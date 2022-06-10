@@ -1,6 +1,7 @@
 ---
-title: "Privacy Policy"
-description: ""
+title: "Privacy Policy of TheLazyNFTer"
+description: "I try to be as open as possible on how I collect and use online data. This privacy policy show's in detail what is collected and how I tend to use it."
+headline: "Privacy Policy"
 layout: "page"
 
 menu:
