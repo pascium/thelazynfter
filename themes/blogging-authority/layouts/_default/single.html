@@ -6,7 +6,7 @@
         <article class="column is-two-thirds">
 
             <header>
-                <h1 class="title is-size-1">{{ .Title }}</h1>
+                <h1 class="title is-size-1 is-size-3-mobile">{{ .Title }}</h1>
                 <p>Reading time: {{ math.Round (div (countwords .Content) 220.0) }} minutes.</p>
                 <figure class="image is-16by9 my-5" aria-hidden="true">
                     <img src="{{ .Params.Thumbnail | absURL }}" alt="{{ .Params.thumbnail_alt }}" width="696" height="392">

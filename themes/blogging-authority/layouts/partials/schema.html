@@ -52,7 +52,7 @@
      "@type": "Article",
      "headline": "{{ .Title }}",
      "alternativeHeadline": "{{ .Title }}",
-     "image": "{{ .Params.thumbnail }}",
+     "image": "{{ .Params.Thumbnail | absURL }}",
      "author": "{{ .Site.Params.Author }}",
      "award": "Crypto Geek",
      "editor": "{{ .Site.Params.Author }}",

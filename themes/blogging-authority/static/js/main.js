@@ -4,7 +4,6 @@ window.addEventListener('load', (event) => {
     const fccCookie = localStorage.getItem('affiliate');
     const menuBtn = document.getElementById('menu-btn');
 
-
     function removeFcc() {
 
 
@@ -21,7 +20,8 @@ window.addEventListener('load', (event) => {
                 bannerFcc.style.display = "block";
             }
 
-        }; checkFcc();
+        };
+        checkFcc();
 
     };
     removeFcc();
@@ -60,14 +60,15 @@ window.addEventListener('load', (event) => {
                 menuBtn.setAttribute('aria-label', "open menu");
             }
         });
-    };toggleMenu();
+    };
+    toggleMenu();
 
 
-    if('serviceWorker' in navigator){
+    if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/sw.js')
-          .then(reg => console.log('service worker registered'))
-          .catch(err => console.log('service worker not registered', err));
-      }
+            .then(reg => console.log('service worker registered'))
+            .catch(err => console.log('service worker not registered', err));
+    }
 
 
 
