@@ -1,7 +1,7 @@
 baseURL = 'https://thelazynfter.blog/'
-languageCode = 'en'
+languageCode = 'en-BD'
 title = 'TheLazyNFTer'
-description = 'Learn to generate unique art from text with AI. In this guide you will learn how to use a free machine learning tool to create cryptographic art without writing a single line of code.'
+description = "Generate unique art for free with AI art generator. This neural network art generator let's you create nifties art from just your text input."
 theme = 'blogging-authority'
 copyright = "{year} - thelazynfter.blog"
 disableKinds = ["taxonomy", "taxonomyTerm"]
