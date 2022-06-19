@@ -1,6 +1,6 @@
 ---
 title: "Learn Crypto With TheLazyNFTer"
-description: "The guides and articles are created with simplicity in mind. I have written everything in a way so that crypto is easier to understand. Take a look for yourself."
+description: "Guides and articles are created for beginners. Everything is created to make crypto is easier to understand. Explore it for yourself."
 
 headline: "Making Crypto Easier"
 

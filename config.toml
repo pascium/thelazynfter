@@ -1,5 +1,5 @@
 baseURL = 'https://thelazynfter.blog/'
-languageCode = 'en-BD'
+languageCode = 'en-US'
 title = 'TheLazyNFTer'
 description = "Generate unique art for free with AI art generator. This neural network art generator let's you create nifties art from just your text input."
 theme = 'blogging-authority'
