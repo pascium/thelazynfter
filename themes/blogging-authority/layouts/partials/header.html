@@ -1,7 +1,7 @@
 <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="{{ .Site.BaseURL }}" title="{{ .Site.Params.author }} Home">
-      <img src="{{ .Site.Params.logo | absURL }}" width="112" height="28" alt="{{ .Site.Params.author }}">
+      <img src="{{ .Site.Params.logo | relURL }}" width="112" height="28" alt="{{ .Site.Params.author }}">
     </a>
 
     <a role="button" id="menu-btn" class="navbar-burger" aria-label="open menu" aria-expanded="false" data-target="mainNav">

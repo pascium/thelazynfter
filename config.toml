@@ -1,6 +1,6 @@
-baseURL = 'https://thelazynfter.blog/'
+baseURL = '/'
 languageCode = 'en-US'
-title = 'TheLazyNFTer'
+title = 'helazynfter'
 description = "Generate unique art for free with AI art generator. This neural network art generator let's you create nifties art from just your text input."
 theme = 'blogging-authority'
 copyright = "{year} - thelazynfter.blog"
@@ -17,7 +17,7 @@ enableRobotsTXT = true
 menu = ['main', 'footer']
 
 [params]
-    'author' = 'TheLazyNFTer'
+    'author' = 'Thelazynfter'
     'logo' = 'img/thelazynfter_logo.svg'
 
 [privacy]
