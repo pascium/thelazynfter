@@ -1,13 +1,13 @@
 ---
-title: "How To Use An AI Generator To Create Art From Text"
-description: "Let your ideas come to life with the help of a free online AI tool. This step-by-step guide will help you get started without writing a single line of code."
+title: "AI Art Generator From Text"
+description: "This step-bystep guide will teach you how to use the AI art generator for free to generate art from your text for free and without any coding."
 
 type: "article"
 
 date: 2022-06-10T14:48:01+02:00
-mod_date: 2022-06-10T14:48:01+02:00
+mod_date: 2022-06-29T12:424:01+02:00
 thumbnail: "img/blog/ai_art_generator_how_to.webp"
-thumbnail_alt: "art from text with AI - how to guide"
+thumbnail_alt: "ai art generator from text"
 ---
 In this guide I will explain to you how to download the art generator I personally use on a daily basis for creating art for my blog thelazynfter.
 
