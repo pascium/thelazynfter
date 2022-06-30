@@ -16,7 +16,7 @@
         {{ $currentPage := . -}}
         {{ range .Site.Menus.main -}}
 
-        <a class="navbar-item" href="{{ .URL | relLangURL }}"{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} class="navbar-item is-active" aria-current="page"{{ end }}>{{ .Name }}</a>
+        <a class="navbar-item" href="{{ .URL | relLangURL }}"{{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} class="is-active" aria-current="page"{{ end }}>{{ .Name }}</a>
 
         {{ end -}}
 
