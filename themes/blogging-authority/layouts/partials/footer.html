@@ -6,6 +6,7 @@
                     <img class="image" src="{{ .Site.Params.logo | relURL }}" alt="{{ .Site.Params.author }}" width="96" height="24"></a>
             </div>
             <div>
+              <nav>
                 <ul class="is-flex is-flex-wrap-wrap is-align-items-center is-justify-content-center">
                     {{ $currentPage := . -}}
                     {{ range .Site.Menus.footer -}}
@@ -14,15 +15,13 @@
 
                     {{ end -}}
                 </ul>
+                </nav>
             </div>
         </div>
     </div>
     <div class="container pt-5">
         <div class="is-flex-tablet is-justify-content-between is-align-items-center">
             <p>{{ replace .Site.Copyright "{year}" now.Year }}</p>
-        </div>
-        <div class="my-5">
-            <a target="_blank" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" loading="lazy" src="{{ "img/icons/cc4.webp" | absURL }}" /></a><br />This work by <a target="_blank" xmlns:cc="http://creativecommons.org/ns#" href="https://thelazynfter.blog/" property="cc:attributionName" rel="cc:attributionURL">TheLazyNFTer</a> is licensed under a <a target="_blank" rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
         </div>
     </div>
 </footer>

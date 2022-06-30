@@ -1,23 +1,23 @@
 {{ define "main" }}
 
-<section class="container">
+<div class="container">
     <div class="section">
         <div class="columns">
-            <header class="column is-two-thirds mb-5">
+            <div class="column is-two-thirds mb-5">
                 <h1 class="title is-size-1 is-size-3-mobile">{{ .Params.headline }}</h1>
                 <p class="subtitle mt-5">
                     {{ .Description }}
                 </p>
-            </header>
+            </div>
         </div>
         <div class="row columns is-multiline">
             {{ range .Pages.ByDate.Reverse }}
-            <article class="column is-4">
+            <div class="column is-4">
                 <div class="card large card-shadow">
                     <div class="card-image">
-                        <figure class="image is-4by3" aria-hidden="true">
+                        <div class="image is-4by3" aria-hidden="true">
                             <img src="{{ .Params.Thumbnail | relURL }}" alt="{{ .Params.thumbnail_alt }}">
-                        </figure>
+                        </div>
                     </div>
                     <div class="card-content">
                             <div class="content">
@@ -30,12 +30,12 @@
                     </div>
                 </div>
 
-            </article>
+            </div>
             {{ end }}
         </div>
 
     </div>
-</section>
+</div>
 
 
 
