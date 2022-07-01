@@ -1,127 +1,123 @@
 {{ define "main" }}
-<div class="hero has-background-dark is-fullheight">
+<article>
+
+  <header class="hero has-background-dark is-fullheight">
     <div class="hero-body">
-        <div class="container">
-            <div class="columns  is-vcentered reverse-columns">
-                <div class="column
-         is-10-mobile
-         is-10-tablet
-         is-5-desktop
-         is-5-widescreen
-         is-5-fullhd ">
-                    <h1 class="title titled is-1 mb-6 has-text-white is-size-2-mobile">
-                        {{ .Params.Headline }}
-                    </h1>
-                    <p class="has-text-light mb-5">{{ .Params.intro }}</p>
-                    <div class="buttons">
-                          <a href="https://forms.gle/5GUu3RTNpcXnG5a67" target="_blank" rel="nofollow noopener" class="button is-warning is-medium is-rounded"><strong>Sign Up To Get Started.</strong></a>
-                    </div>
-                </div>
-                <div class="column
-         is-10-mobile
-         is-10-tablet
-         is-4-desktop
-         is-7-widescreen
-         is-4-fullhd is-offset-1-fullhd">
-                    <div class="image is-square">
-                        <img class="fancy-border" src="{{ .Params.Thumbnail | absURL }}" alt="{{ .Params.thumbnail_alt }}" width="662" height="662" title="{{ .Params.thumbnail_alt }}">
-                    </div>
-                </div>
-
+      <div class="container">
+        <div class="columns  is-vcentered reverse-columns">
+          <div class="column
+           is-10-mobile
+           is-10-tablet
+           is-5-desktop
+           is-5-widescreen
+           is-5-fullhd ">
+            <h1 class="title titled is-1 mb-6 has-text-white is-size-2-mobile">
+              {{ .Params.Headline }}
+            </h1>
+            <p class="has-text-light mb-5">{{ .Params.intro }}</p>
+            <div class="buttons">
+              <a href="#latest" class="button is-warning is-medium is-rounded"><strong>Latest Guides</strong></a>
             </div>
-        </div>
-    </div>
-</div>
-
-<div class="hero is-white is-fullheight">
-    <div class="hero-body">
-        <div class="container">
-            <div class="columns  is-vcentered">
-                <div class="column
-         is-10-mobile is-offset-1-mobile
-         is-10-tablet is-offset-1-tablet
-         is-4-desktop is-offset-1-desktop
-         is-4-widescreen is-offset-1-widescreen
-         is-4-fullhd is-offset-1-fullhd">
-                    <div class="image is-square">
-                        <img class="fancy-border" src="{{ "img/dystopian_tokyo_city.webp" | absURL }}" width="368" height="368" alt="AI generated tokyo city in dystopian style" loading="lazy" title="AI generated tokyo city in dystopian style">
-                    </div>
-                </div>
-                <div class="column
-         is-10-mobile is-offset-1-mobile
-         is-10-tablet is-offset-1-tablet
-         is-5-desktop is-offset-1-desktop
-         is-5-widescreen is-offset-1-widescreen
-         is-5-fullhd is-offset-1-fullhd">
-                    <h2 class="titled title is-size-2 mb-6 is-size-3-mobile">
-                      What Is Crypto Art?
-                    </h2>
-                    <p>Crypto art is also used to indicate unique digital nifties. These are traded on the blockchain “gemint” making it a unique piece that is not found anywhere else.</p>
-
-                    <p class="pt-5">This crypto art is then stored in a crypto wallet that is suitable for this, usually Metamask or other similar wallets that support NFTs.</p>
-                </div>
-
+          </div>
+          <div class="column
+           is-10-mobile
+           is-10-tablet
+           is-4-desktop
+           is-7-widescreen
+           is-4-fullhd is-offset-1-fullhd">
+            <div class="image is-square">
+              <img class="fancy-border" src="{{ .Params.Thumbnail | absURL }}" alt="{{ .Params.thumbnail_alt }}" width="662" height="662" title="{{ .Params.thumbnail_alt }}">
             </div>
-        </div>
-    </div>
-</div>
-
-<div class="hero is-white is-fullheight">
-    <div class="hero-body">
-        <div class="container">
-            <div class="columns  is-vcentered reverse-columns">
-                <div class="column
-         is-10-mobile is-offset-1-mobile
-         is-10-tablet is-offset-1-tablet
-         is-5-desktop is-offset-1-desktop
-         is-5-widescreen is-offset-1-widescreen
-         is-5-fullhd is-offset-1-fullhd">
-                    <h2 class="title titled is-size-2 mb-6 is-size-3-mobile">
-                      Can Anyone Make Crypto Art?
-                    </h2>
-                    <p>
-                      Creating digital art or NFTs requires certain skills and expensive programs, but not everyone has these skills or knows how to use Photoshop.
-                    </p>
-                    <p class="pt-5">
-                      With this free tool, anyone with a google account and internet can create digital “art” without having to spend any monthly money.
-                    </p>
-                </div>
-                <div class="column
-         is-10-mobile is-offset-1-mobile
-         is-10-tablet is-offset-1-tablet
-         is-4-desktop is-offset-1-desktop
-         is-4-widescreen is-offset-1-widescreen
-         is-4-fullhd is-offset-1-fullhd">
-                    <div class="image is-square">
-                        <img class="fancy-border" src="{{ "img/shipwreck_underwater.webp" | absURL }}" alt="fish swim around shipwreck made with artificial intelligence" title="fish swim around shipwreck made with artificial intelligence" loading="lazy" width="368" height="368">
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="hero is-medium has-background-light has-text-centered">
-    <div class="hero-body">
-        <div class="container">
-            <div class="columns is-centered">
-                <div class="column is-8">
-                    <h2 class="title titled is-size-2 mb-6 is-size-3-mobile">
-                      Create Your Own NFT Art With This No-Code AI Art Generator.
-                    </h2>
-                    <p>
-                      No more worrying about running out of art for your social media posts, wallpapers, or anything else. Make something new every day.
-                    </p>
-                    <div>
-                         <a href="https://forms.gle/5GUu3RTNpcXnG5a67" target="_blank" rel="nofollow noopener" class="button is-warning is-medium is-rounded mt-5"><strong>Sign Up To Get Started.</strong></a>
-                    </div>
-                </div>
-            </div>
+          </div>
 
         </div>
+      </div>
     </div>
-</div>
+  </header>
+
+  <section class="section container my-5" id="latest">
+    <header class="columns">
+      <div class="column is-two-thirds mb-5">
+        <h2 class="title is-size-1 is-size-3-mobile">Latest Crypto Guides.</h2>
+        <p class="subtitle mt-5">
+          These are the latest guides the I have posted. For even more articles aout cryptocurrencies or NFTs you can visit my <a href="/learn/">learn</a> section.
+        </p>
+      </div>
+    </header>
+    <div class="row columns is-multiline">
+      {{ range ( first 3 ( where .Site.Pages "Type" "article" ).ByDate ) }}
+      <article class="column is-4">
+        <div class="card large card-shadow">
+          <div class="card-image">
+            <div class="image is-4by3" aria-hidden="true">
+              <img src="{{ .Params.Thumbnail | relURL }}" alt="{{ .Params.thumbnail_alt }}">
+            </div>
+          </div>
+          <div class="card-content">
+            <header class="content">
+              <h3 class="title is-5">{{ .Title }}</h3>
+              <p>{{ .Description }}</p>
+            </header>
+            <footer class="card-footer">
+              <a href="{{ .Permalink | relURL }}" aria-label="read article about {{ .Title }}" class="button is-warning is-medium is-rounded">Continue Reading</a>
+            </footer>
+          </div>
+        </div>
+
+      </article>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="hero is-white is-fullheight">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns  is-vcentered reverse-columns">
+          <div class="column
+           is-10-mobile is-offset-1-mobile
+           is-10-tablet is-offset-1-tablet
+           is-5-desktop is-offset-1-desktop
+           is-5-widescreen is-offset-1-widescreen
+           is-5-fullhd is-offset-1-fullhd">
+            <header>
+              <h2 class="title titled is-size-2 mb-6 is-size-3-mobile">
+                Where Can I Learn The Crypto Basics?
+              </h2>
+            </header>
+            <p>When it comes to blockchain fundamentals, knowledge is king but also don&rsquo;t be afraid to learn from your mistakes so you don&rsquo;t make the same one over and over again.</p>
+
+            <p class="my-5">But BEFORE doing any crypto trading, start with some good self education or follow a few courses. Here are a few good places you could check out.</p>
+            <ol class="m-5">
+              <li class="my-3 has-text-link"><a href="https://www.coinbase.com/earn" target="_blank" rel="noopener">Coinbase Learn.</a></li>
+              <li class="my-3 has-text-link"><a href="https://www.youtube.com/watch?v=mQvw5JXXnrQ" target="_blank" rel="noopener">MoneyZG on YouTube</a>.</li>
+              <li class="mt-3 has-text-link"><a href="https://www.ledger.com/academy/basic-basics/about-crypto" target="_blank" rel="noopener">Ledger Academy</a>.</li>
+            </ol>
+          </div>
+          <div class="column
+           is-10-mobile is-offset-1-mobile
+           is-10-tablet is-offset-1-tablet
+           is-4-desktop is-offset-1-desktop
+           is-4-widescreen is-offset-1-widescreen
+           is-4-fullhd is-offset-1-fullhd">
+            <div class="image is-square">
+              <img class="fancy-border" src="{{ "img/shipwreck_underwater.webp" | absURL }}" alt="fish swim around shipwreck made with artificial intelligence" title="fish swim around shipwreck made with artificial intelligence" loading="lazy" width="368" height="368">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+</article>
+
+
+
+
+
+
 
 
 

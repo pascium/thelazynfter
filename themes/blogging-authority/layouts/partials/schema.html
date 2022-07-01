@@ -1,14 +1,15 @@
 {{ if .IsHome }}
 
-<script type='application/ld+json'>
+<script type="application/ld+json">
 {
-  "@context": "http://www.schema.org",
-  "@type": "WebSite",
-  "name": "{{ .Site.Params.Author }}",
-  "alternateName": "{{ .Site.Params.Author }}",
-  "url": "{{ .Site.BaseURL }}"
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "{{ .Site.Params.author }}",
+  "alternateName": "{{ .Site.Params.author }}",
+  "url": "{{ .Site.BaseURL }}",
+  "logo": "{{ .Site.Params.logo }}"
 }
- </script>
+</script>
 
 {{ else }}
 
@@ -20,7 +21,7 @@
     "description": "{{ .Description }}",
     "publisher": {
         "@type": "Person",
-        "name": "{{ .Site.Params.Author }}"
+        "name": "{{ .Site.Params.author }}"
     },
     "license": "https://creativecommons.org/licenses/by-sa/4.0/"
 }
@@ -53,12 +54,12 @@
      "headline": "{{ .Title }}",
      "alternativeHeadline": "{{ .Title }}",
      "image": "{{ .Params.Thumbnail | relURL }}",
-     "author": "{{ .Site.Params.Author }}",
+     "author": "{{ .Site.Params.author }}",
      "award": "Crypto Geek",
-     "editor": "{{ .Site.Params.Author }}",
+     "editor": "{{ .Site.Params.author }}",
     "publisher": {
         "@type": "Person",
-        "name": "{{ .Site.Params.Author }}",
+        "name": "{{ .Site.Params.author }}",
         "logo": {
           "@type": "ImageObject",
           "url": "{{ .Site.Params.logo }}"

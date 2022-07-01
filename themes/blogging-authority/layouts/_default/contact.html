@@ -1,14 +1,15 @@
 {{ define "main" }}
 
-<div class="hero is-fullheight section container">
+<article class="hero is-fullheight section container">
 		<div class="hero-body">
 			<div class="container has-text-centered">
 				<div class="columns is-8 is-variable ">
-					<div class="column is-two-thirds has-text-left">
+					<header class="column is-two-thirds has-text-left">
 						<h1 class="title is-1">{{ .Params.Headline }}</h1>
 						<p class="is-size-4">{{ .Description }}</p>
-					</div>
-					<div class="column is-one-third has-text-left">
+					</header>
+
+					<section class="column is-one-third has-text-left">
 						<div class="field">
 							<label class="label">Name</label>
 							<div class="control">
@@ -30,10 +31,11 @@
 						<div class="control">
 							<button type="submit" class="button is-warning is-rounded is-fullwidth has-text-weight-medium is-medium">Send Message</button>
 						</div>
-					</div>
+					</section>
+
 				</div>
 			</div>
 		</div>
-	</div>
+	</article>
 
 {{ end }}

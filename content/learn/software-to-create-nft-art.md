@@ -1,7 +1,13 @@
 ---
-title: "Software To Create NFT Art"
+title: "Software to Create NFT Art"
 description: "There is a lot of software you can use to create NFTs. In this list, I will show you my favorite and least favorite software to create NFT art."
 type: "article"
+
+menu:
+  main:
+    name: "NFT software"
+    weight: 2
+
 date: 2022-06-07T15:00:10+02:00
 mod_date: 2022-06-29T12:16:10+02:00
 thumbnail: "img/blog/best_nft_software.webp"

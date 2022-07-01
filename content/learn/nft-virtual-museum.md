@@ -1,5 +1,5 @@
 ---
-title: "Advantages Of Virtual NFT Museums"
+title: "Advantages of Virtual NFT Museums"
 description: "Exploring non fungible tokens in virtual space sounds strange but it has many advantages over regular museums. In this article I will explain what they are."
 
 type: "article"

@@ -1,30 +1,8 @@
 window.addEventListener('load', (event) => {
-    const fccBtn = document.getElementById('fcc-button');
-    const bannerFcc = document.getElementById('fcc-banner');
-    const fccCookie = localStorage.getItem('affiliate');
     const menuBtn = document.getElementById('menu-btn');
 
-    function removeFcc() {
 
 
-        fccBtn.addEventListener('click', function() {
-            localStorage.setItem('affiliate', 'accepted');
-            bannerFcc.style.display = "none";
-        });
-
-        function checkFcc() {
-
-            if (fccCookie == "accepted") {
-                bannerFcc.style.display = "none";
-            } else {
-                bannerFcc.style.display = "block";
-            }
-
-        };
-        checkFcc();
-
-    };
-    removeFcc();
 
 
 

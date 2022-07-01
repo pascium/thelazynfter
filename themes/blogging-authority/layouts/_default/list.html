@@ -1,18 +1,18 @@
 {{ define "main" }}
 
-<div class="container">
+<article class="container">
     <div class="section">
-        <div class="columns">
+        <header class="columns">
             <div class="column is-two-thirds mb-5">
                 <h1 class="title is-size-1 is-size-3-mobile">{{ .Params.headline }}</h1>
                 <p class="subtitle mt-5">
                     {{ .Description }}
                 </p>
             </div>
-        </div>
+        </header>
         <div class="row columns is-multiline">
             {{ range .Pages.ByDate.Reverse }}
-            <div class="column is-4">
+            <article class="column is-4">
                 <div class="card large card-shadow">
                     <div class="card-image">
                         <div class="image is-4by3" aria-hidden="true">
@@ -20,22 +20,22 @@
                         </div>
                     </div>
                     <div class="card-content">
-                            <div class="content">
+                            <header class="content">
                                 <h2 class="title is-5">{{ .Title }}</h2>
                                 <p>{{ .Description }}</p>
-                            </div>
-                        <div class="card-footer">
+                            </header>
+                        <footer class="card-footer">
                             <a href="{{ .Permalink }}" aria-label="read article about {{ .Title }}" class="button is-link">Continue Reading</a>
-                        </div>
+                        </footer>
                     </div>
                 </div>
 
-            </div>
+            </article>
             {{ end }}
         </div>
 
     </div>
-</div>
+</article>
 
 
 

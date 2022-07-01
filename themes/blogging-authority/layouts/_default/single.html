@@ -1,18 +1,19 @@
 {{ define "main" }}
 
-<div class="section container">
+<article class="section container">
 
     <div class="columns">
         <div class="column is-two-thirds">
 
-            <div>
+            <header>
                 <h1 class="title is-size-1 is-size-3-mobile">{{ .Title }}</h1>
-                <p>Reading time: {{ math.Round (div (countwords .Content) 220.0) }} minutes.</p>
+                <p class="my-5">Reading time: {{ math.Round (div (countwords .Content) 220.0) }} minutes.</p>
+                  <small>This post may contain affiliate links or mention my own products, please check out my <a href="/disclaimer/#affiliate-disclosure:~:text=uploading%20any%20information.-,Affiliate%20disclosure,-Thelazynfter%20is%20an" target="_blank">disclaimer</a> policy.</small>
                 <div class="image is-16by9 my-5" aria-hidden="true">
                     <img src="{{ .Params.Thumbnail | relURL }}" alt="{{ .Params.thumbnail_alt }}" width="696" height="392">
                 </div>
                 <p>{{ .Params.intro }}</p>
-            </div>
+            </header>
 
             <div class="content">
                 {{ .Content }}
@@ -22,12 +23,12 @@
 
 
 
-        <div class="column">
+        <aside class="column">
             {{ partial "sidebar.html" . }}
-        </div>
+        </aside>
     </div>
 
-</div>
+</article>
 
 
 {{ end }}

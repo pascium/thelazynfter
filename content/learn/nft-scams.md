@@ -2,11 +2,6 @@
 title: "NFT Scams 2022 & Beyond"
 description: "NFT art can sell for big bucks. Scammers want a piece of the action and target artist to steal from. This article shows you scams to look out for in 2022 and beyond."
 
-menu:
-  main:
-    name: "NFT Scams 2022"
-    weight: 2
-
 type: "article"
 date: 2022-06-08T17:36:14+02:00
 mod_date: 2022-06-29T12:19:14+02:00

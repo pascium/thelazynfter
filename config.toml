@@ -1,16 +1,17 @@
-baseURL = '/'
-languageCode = 'en-US'
-title = 'helazynfter'
-description = "Generate unique art for free with AI art generator. This neural network art generator let's you create nifties art from just your text input."
+baseURL = 'https://thelazynfter.blog/'
+languageCode = 'en'
+title = 'Thelazynfter'
+description = "Simple Cryptocurrency guides about Bitcoin, Solana, Ethereum and Polygon. I also DApp a bit in NFT with Machine Learning."
 theme = 'blogging-authority'
 copyright = "{year} - thelazynfter.blog"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 enableRobotsTXT = true
+disableHugoGeneratorInject = true
 
 [markup.goldmark.renderer]
     unsafe= true
 [sitemap]
-    changefreq = 'monthly'
+    changefreq = 'weekly'
     filename = 'sitemap.xml'
     priority = 0.8
 
