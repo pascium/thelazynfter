@@ -1,8 +1,30 @@
-body{
-    font-family: 'Merriweather', serif !important;
+:root{
+  --dark-bg: #111827;
+  --card-bg: #1e2534;
+  --btn-bg: #48c78e;
 }
-.fancy-border{
-    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+body{
+    font-family: 'Sora', sans-serif !important;
+}
+.has-background-dark, .navbar, .navbar-menu{
+  background-color: var(--dark-bg) !important;
+}
+.navbar-item{
+  color: hsl(0, 0%, 71%) !important;
+}
+.navbar-item:hover{
+  background-color: var(--card-bg)!important;
+  color: var(--btn-bg) !important;
+}
+.card-bg{
+  background-color: var(--card-bg) !important;
+}
+.link-special{
+  color: var(--btn-bg) !important;
+}
+.button.is-warning{
+  background-color: var(--btn-bg) !important;
+  color: var(--dark-bg) !important;
 }
 .card {
     display:flex;
@@ -11,4 +33,25 @@ body{
 }
 .card-footer {
     margin-top: auto;
+}
+#single-page a, ::marker{
+  color: var(--btn-bg) !important;
+}
+#single-page p{
+  padding: calc(.4rem) 0;
+}
+#single-page p, small, li{
+  color: hsl(0, 0%, 71%) !important;
+}
+
+#single-page h2,h3,h4,h5{
+  padding-top: calc(1.4rem);
+}
+#single-page h1,h2,h3,h4,h5,strong{
+  color: hsl(0, 0%, 100%) !important;
+}
+
+.home-hero{
+  background: url('/img/neon_street_sign.webp') center center no-repeat;
+  background-size: cover;
 }

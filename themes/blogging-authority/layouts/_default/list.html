@@ -4,16 +4,16 @@
     <div class="section">
         <header class="columns">
             <div class="column is-two-thirds mb-5">
-                <h1 class="title is-size-1 is-size-3-mobile">{{ .Params.headline }}</h1>
-                <p class="subtitle mt-5">
-                    {{ .Description }}
+                <h1 class="title is-size-1 is-size-3-mobile has-text-white">{{ .Params.headline }}</h1>
+                <p class="mt-5 has-text-grey-light">
+                    {{ .Params.intro }}
                 </p>
             </div>
         </header>
-        <div class="row columns is-multiline">
+        <section class="row columns is-multiline">
             {{ range .Pages.ByDate.Reverse }}
             <article class="column is-4">
-                <div class="card large card-shadow">
+                <div class="card large card-shadow card-bg">
                     <div class="card-image">
                         <div class="image is-4by3" aria-hidden="true">
                             <img src="{{ .Params.Thumbnail | relURL }}" alt="{{ .Params.thumbnail_alt }}">
@@ -21,18 +21,18 @@
                     </div>
                     <div class="card-content">
                             <header class="content">
-                                <h2 class="title is-5">{{ .Title }}</h2>
-                                <p>{{ .Description }}</p>
+                                <h2 class="title is-5 has-text-white">{{ .Title }}</h2>
+                                <p class="has-text-grey-light">{{ .Description }}</p>
                             </header>
-                        <footer class="card-footer">
-                            <a href="{{ .Permalink }}" aria-label="read article about {{ .Title }}" class="button is-link">Continue Reading</a>
-                        </footer>
+                        <div>
+                            <a href="{{ .Permalink }}" aria-label="read article about {{ .Title }}" class="button is-warning is-small">Continue Reading</a>
+                        </div>
                     </div>
                 </div>
 
             </article>
             {{ end }}
-        </div>
+        </section>
 
     </div>
 </article>

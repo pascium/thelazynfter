@@ -16,14 +16,14 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{ "img/icons/favicon-32x32.png" | relURL }}">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ "img/icons/favicon-16x16.png" | relURL }}">
     <link rel="manifest" href="{{ "img/icons/site.webmanifest" | relURL }}">
-    <link rel="mask-icon" href="{{ "img/icons/safari-pinned-tab.svg" | relURL }}" color="#ffa500">
-    <meta name="msapplication-TileColor" content="#ffa500">
-    <meta name="theme-color" content="#f4f4f4">
+    <link rel="mask-icon" href="{{ "img/icons/safari-pinned-tab.svg" | relURL }}" color="#111827">
+    <meta name="msapplication-TileColor" content="#111827">
+    <meta name="theme-color" content="#111827">
     <link rel="profile" href="https://gmpg.org/xfn/11">
 	  <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
 
     {{ if .IsHome }}
-      <meta property="og:locale" content="en_US" />
+      <meta property="og:locale" content="{{ .Site.LanguageCode }}" />
       <meta property="og:type" content="website" />
       <meta property="og:title" content="{{ .Title }}" />
       <meta property="og:url" content="{{ .Permalink }}" />

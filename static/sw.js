@@ -1,5 +1,5 @@
-const staticCacheName = 'site-static-v0.0.10';
-const dynamicCacheName = 'site-dynamic-v0.0.10';
+const staticCacheName = 'site-static-v0.0.1';
+const dynamicCacheName = 'site-dynamic-v0.0.1';
 const assets = [
   '/',
   '/index.html',
@@ -14,15 +14,11 @@ const assets = [
   '/img/icons/favicon-16x16.png',
   '/img/icons/favicon-32x32.png',
   '/img/icons/favicon.ico',
-  '/img/icons/cc4.webp',
   '/img/icons/mstile-150x150.png',
   '/img/icons/site.webmanifest',
   '/img/icons/safari-pinned-tab.svg',
   '/thelazynfter_favicon.png',
-  '/img/dystopian_tokyo_city.webp',
-  '/img/free_nft_ad.webp',
-  '/img/shipwreck_underwater.webp',
-  '/img/steampunk_futuristic_city.webp',
+  '/img/neon_street_sign.webp',
   '/img/thelazynfter_logo.svg'
 
 ];

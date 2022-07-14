@@ -1,10 +1,11 @@
 <nav class="navbar is-fixed-top" aria-label="main navigation">
+  <div class="container">
   <div class="navbar-brand">
     <a class="navbar-item" href="{{ .Site.BaseURL }}" title="{{ .Site.Params.author }} Home">
       <img src="{{ .Site.Params.logo | relURL }}" width="112" height="28" alt="{{ .Site.Params.author }}">
     </a>
 
-    <a role="button" id="menu-btn" class="navbar-burger" aria-label="open menu" aria-expanded="false" data-target="mainNav">
+    <a role="button" id="menu-btn" class="navbar-burger has-text-grey-light" aria-label="open menu" aria-expanded="false" data-target="mainNav">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
@@ -12,7 +13,7 @@
   </div>
 
   <div id="mainNav" class="navbar-menu">
-    <div class="navbar-start">
+    <div class="navbar-end">
         {{ $currentPage := . -}}
         {{ range .Site.Menus.main -}}
 
@@ -21,15 +22,6 @@
         {{ end -}}
 
     </div>
-
-    <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a href="https://rushingfolder.com/show.php?l=0&u=623530&id=41469&tracking_id=" target="_blank" rel="nofollow sponsored noopener" class="button is-warning is-rounded">
-            <strong>Best Phone VPN</strong>
-          </a>
-        </div>
-      </div>
-    </div>
+  </div>
   </div>
 </nav>
