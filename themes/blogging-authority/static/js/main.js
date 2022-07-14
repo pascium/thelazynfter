@@ -2,11 +2,6 @@ window.addEventListener('load', (event) => {
     const menuBtn = document.getElementById('menu-btn');
 
 
-
-
-
-
-
     // Get all "navbar-burger" elements
     const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
@@ -42,12 +37,12 @@ window.addEventListener('load', (event) => {
     toggleMenu();
 
 
-    if ('serviceWorker' in navigator) {
-        navigator.serviceWorker.register('/sw.js')
-            .then(reg => console.log('service worker registered'))
-            .catch(err => console.log('service worker not registered', err));
-    }
-
+    // if ('serviceWorker' in navigator) {
+    //     navigator.serviceWorker.register('/sw.js')
+    //         .then(reg => console.log('service worker registered'))
+    //         .catch(err => console.log('service worker not registered', err));
+    // }
+    //
 
 
 

@@ -12,7 +12,7 @@ menu:
 date: 2022-06-06T14:27:22+02:00
 mod_date: 2022-06-06T14:27:22+02:00
 ---
-At TheLazyNFTer, accessible from https://thelazynfter.blog/, one of our main priorities is the privacy of our visitors.
+Accessiblety is one of my main priorities is the privacy of my visitors.
 
 This Privacy Policy document contains types of information that is collected and recorded by TheLazyNFTer and how we use it.
 
