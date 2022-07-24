@@ -1,97 +1,138 @@
 {{ define "main" }}
 <article>
 
-  <header class="hero is-fullheight home-hero">
-    <div class="hero-body">
-      <div class="container">
-        <div class="columns is-vcentered reverse-columns">
-          <div class="column
-           is-10-mobile
-           is-10-tablet
-           is-6-desktop
-           is-6-widescreen
-           is-6-fullhd ">
-            <h1 class="title titled is-1 mb-6 has-text-white is-size-2-mobile">
-              {{ .Params.Headline }}
-            </h1>
-            <p class="has-text-grey-light mb-5">{{ .Params.intro }}</p>
-            <div class="buttons">
-              <a href="/learn/" class="button is-warning is-medium is-rounded">Start Learning</a>
-            </div>
-          </div>
+    <header class="hero is-large has-text-centered">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-centered">
+                    <div class="column is-8">
+                        <h1 class="title is-size-1 is-size-3-mobile mb-6 gradient-text">
+                            {{ .Params.headline }}
+                        </h1>
+                        <p class="subtitle is-size-4 is-size-5-mobile has-text-grey-light">
+                            {{ .Params.intro }}
+                        </p>
+                    </div>
+                </div>
 
+            </div>
         </div>
-      </div>
-    </div>
-  </header>
+    </header>
 
-  <section class="section container my-5" id="latest">
-    <div class="columns">
-      <div class="column is-two-thirds mb-5">
-        <h2 class="title is-size-1 is-size-3-mobile has-text-white">Popular Crypto Guides.</h2>
-        <p class="mt-5 has-text-grey-light">
-          Here is a short list of crypto guides other visitors liked the most. For more articles and guides about crypto or NFTs you can visit the <a class="link-special" href="/learn/">learn crypto</a> section.
-        </p>
-      </div>
-    </div>
-    <div class="row columns is-multiline">
-      {{ range ( first 3 ( where .Site.Pages "Layout" "trend" ).ByDate.Reverse ) }}
-      <article class="column is-4">
-        <div class="card large card-shadow card-bg">
-          <div class="card-image">
-            <div class="image is-4by3" aria-hidden="true">
-              <img src="{{ .Params.Thumbnail | relURL }}" alt="{{ .Params.thumbnail_alt }}" width="312" height="234" loading="lazy">
+    <section class="hero is-fullheight has-background-dark">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-vcentered">
+                    <div class="column
+                is-10-mobile is-offset-1-mobile
+                is-10-tablet is-offset-1-tablet
+                is-4-desktop is-offset-1-desktop
+                is-4-widescreen is-offset-1-widescreen
+                is-4-fullhd is-offset-1-fullhd">
+                        <figure class="image is-square box-glow">
+                            <img src="img/dystopian_tokyo_city.webp" alt="" width="432" height="432" loading="lazy">
+                        </figure>
+                    </div>
+                    <div class="column
+                is-10-mobile is-offset-1-mobile
+                is-10-tablet is-offset-1-tablet
+                is-5-desktop is-offset-1-desktop
+                is-5-widescreen is-offset-1-widescreen
+                is-5-fullhd is-offset-1-fullhd">
+                        <h2 class="title is-size-1 is-size-3-mobile mb-6 sub-gradient">
+                            Powered by AI
+                        </h2>
+                        <p class="subtitle has-text-grey-light">
+                            The art generator is the easiest and most affordable way to get started with digital art. Powered by intuitive AI, it's never been so easy to experiment with new styles and techniques.
+                        </p>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="card-content">
-            <header class="content">
-              <h3 class="title is-5 has-text-white">{{ .Title }}</h3>
-              <p class="has-text-grey-light">{{ .Description }}</p>
-            </header>
-            <div class="">
-              <a href="{{ .Permalink | relURL }}" aria-label="read article about {{ .Title }}" class="button is-warning is-small is-rounded">Continue Reading</a>
-            </div>
-          </div>
         </div>
+    </section>
 
-      </article>
-      {{ end }}
-    </div>
-  </section>
+    <section class="hero is-fullheight has-background-dark">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-vcentered reverse-columns">
+                    <div class="column
+          is-10-mobile is-offset-1-mobile
+          is-10-tablet is-offset-1-tablet
+          is-5-desktop is-offset-1-desktop
+          is-5-widescreen is-offset-1-widescreen
+          is-5-fullhd is-offset-1-fullhd">
+                        <h2 class="title is-size-1 is-size-3-mobile mb-6 sub-gradient">
+                            Creative freedom
+                        </h2>
+                        <p class="subtitle has-text-grey-light">
+                            You don't need to know how to draw or have any background in art. You can create anything you want, describe your art in a few words and the AI will do the rest.
+                        </p>
+                    </div>
+                    <div class="column
+          is-10-mobile is-offset-1-mobile
+          is-10-tablet is-offset-1-tablet
+          is-4-desktop is-offset-1-desktop
+          is-4-widescreen is-offset-1-widescreen
+          is-4-fullhd is-offset-1-fullhd">
+                        <figure class="image is-square box-glow">
+                            <img src="img/steampunk_futuristic_city.webp" alt="" width="432" height="432" laoding="lazy">
+                        </figure>
+                    </div>
 
-  <section class="section container my-5" id="latest">
-    <div class="columns">
-      <div class="column is-two-thirds mb-5">
-        <h2 class="title is-size-1 is-size-3-mobile has-text-white">Latest Crypto Guides.</h2>
-        <p class="mt-5 has-text-grey-light">
-          An overview of the latest guides and articles that are published on this blog. Check the <a href="/learn/" class="link-special">learn crypto</a> section for even more beginner-friendly content.
-        </p>
-      </div>
-    </div>
-    <div class="row columns is-multiline">
-      {{ range ( first 3 ( where .Site.Pages "Type" "article" ).ByDate.Reverse ) }}
-      <article class="column is-4">
-        <div class="card large card-shadow card-bg">
-          <div class="card-image">
-            <div class="image is-4by3" aria-hidden="true">
-              <img src="{{ .Params.Thumbnail | relURL }}" alt="{{ .Params.thumbnail_alt }}" width="312" height="234" loading="lazy">
+                </div>
             </div>
-          </div>
-          <div class="card-content">
-            <header class="content">
-              <h3 class="title is-5 has-text-white">{{ .Title }}</h3>
-              <p class="has-text-grey-light">{{ .Description }}</p>
-            </header>
-            <div>
-              <a href="{{ .Permalink | relURL }}" aria-label="read article about {{ .Title }}" class="button is-warning is-small is-rounded">Continue Reading</a>
-            </div>
-          </div>
         </div>
+    </section>
 
-      </article>
-      {{ end }}
-    </div>
-  </section>
+    <section class="hero is-fullheight has-background-dark">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-vcentered">
+                    <div class="column
+                is-10-mobile is-offset-1-mobile
+                is-10-tablet is-offset-1-tablet
+                is-4-desktop is-offset-1-desktop
+                is-4-widescreen is-offset-1-widescreen
+                is-4-fullhd is-offset-1-fullhd">
+                        <figure class="image is-square box-glow">
+                            <img src="img/shipwreck_underwater.webp" alt="" width="432" height="432" loading="lazy">
+                        </figure>
+                    </div>
+                    <div class="column
+                is-10-mobile is-offset-1-mobile
+                is-10-tablet is-offset-1-tablet
+                is-5-desktop is-offset-1-desktop
+                is-5-widescreen is-offset-1-widescreen
+                is-5-fullhd is-offset-1-fullhd">
+                        <h2 class="title is-size-1 is-size-3-mobile mb-6 sub-gradient">
+                            Thousands of possibilities
+                        </h2>
+                        <p class="subtitle has-text-grey-light">
+                            There are no limits to what you can create with the art generator, from beautiful landscapes and animal portraits, to abstracts and digital paintings. All you need is a Google account.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="hero is-medium has-text-centered has-background-dark">
+        <div class="hero-body">
+            <div class="container">
+                <div class="columns is-centered">
+                    <div class="column is-8">
+                        <h2 class="title is-size-1 is-size-3-mobile mb-6 gradient-text">
+                            Get started in seconds!
+                        </h2>
+                        <p class="subtitle is-size-4 has-text-grey-light">
+                            It takes just a few seconds, no account - no payments - no waiting around for approval or worrying about uploading files. It's super fast and easy.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
 
 
 

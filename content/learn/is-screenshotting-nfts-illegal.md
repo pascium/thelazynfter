@@ -1,12 +1,12 @@
 ---
-title: "Is Screenshotting NFTs Illegal"
-description: "Generally speaking, taking a screenshot or selling of digital assets that is not yours can be considered infringement. This is illegal in most jurisdictions."
+title: "Is Screenshotting NFTs Illegal?"
+description: "If you are wondering whether or not it is illegal to screenshot an NFT, this article will hopefully clear things up for you."
 
 type: "article"
 layout: "trend"
 
 date: 2022-07-03T14:23:29+02:00
-mod_date: 2022-07-03T14:23:29+02:00
+mod_date: 2022-07-24T14:59:29+02:00
 thumbnail: "img/blog/screenshot_nft.webp"
 thumbnail_alt: "screenshot nft"
 ---
@@ -34,7 +34,7 @@ In most cases, using an NFT as a profile picture is not illegal as long you have
 
 For example, if you are using an NFT to represent your identity on social media, then using an NFT as your profile picture could be considered illegal. 
 
-Additionally, using an NFT to represent your company or organization could also be considered illegal.
+Additionally, using other people's NFTs to represent your company or organization could also be considered illegal.
 
 ## How do I report stolen NFT art?
 

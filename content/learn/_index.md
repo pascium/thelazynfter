@@ -1,16 +1,16 @@
 ---
-title: "Learn Crypto - Thelazynfter"
-description: "The crypto market is a very new and confusing space for a beginner. If you want to learn and understand crypto then you should go here."
-Headline: "Learn Crypto"
-intro: "Cryptocurrency is often traded on decentralized exchanges and can also be used to purchase goods and services. These guides are created to help absolute beginners make sense about crypto."
+title: "NFTs Are My Passion"
+description: "NFTs are my passion! Why? Because I get a kick out of using them. I hope you do too. And here's everything you need to know!"
+Headline: "NFTs Are My Passion"
+intro: "Learn Crypto with Thelazynfter. Browse my collection of simple and informative reviews and guides for people new to cryptocurrency, mining, and more."
 
 menu:
   main:
-    name: "Learn Crypto"
+    name: "NFT Guides"
     weight: 1
 
 
 
 date: 2022-07-13T21:04:13+02:00
-mod_date: 2022-06-07T14:22:13+02:00
+mod_date: 2022-07-24T14:44:13+02:00
 ---

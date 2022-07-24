@@ -1,5 +1,5 @@
 ---
-title: "Disclaimer Policy of TheLazyNFTer"
+title: "Disclaimer Policy - Thelazynfter"
 description: "Information found on thelazynfter.blog is not financial advice, only for entertainment and educational purposes. Read this disclaimer document for more info."
 headline: "Disclaimer Policy"
 layout: "page"
@@ -11,7 +11,7 @@ menu:
 
 
 date: 2022-06-06T14:28:54+02:00
-mod_date: 2022-06-06T14:28:54+02:00
+mod_date: 2022-07-16T14:18:54+02:00
 ---
 If you require any more information or have any questions about our site's disclaimer, please feel free to contact us by google form.
 

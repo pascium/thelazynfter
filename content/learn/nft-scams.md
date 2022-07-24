@@ -1,10 +1,10 @@
 ---
-title: "NFT Scams 2022 & Beyond"
-description: "Scared to lose your NFT art to a scammer? Read this comprehensive article and learn about post and present scams so you don’t fall for these scams."
+title: "NFT Scams 2022 & 2023"
+description: "In this guide I will introduce you to the types of scams that are out there, as well as what to look out for, so you can avoid becomming a victim."
 
 type: "article"
 date: 2022-06-08T17:36:14+02:00
-mod_date: 2022-07-14T21:28:14+02:00
+mod_date: 2022-07-24T15:03:14+02:00
 thumbnail: "img/blog/nft_scams.webp"
 thumbnail_alt: "NFT scams 2022"
 ---

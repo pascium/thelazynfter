@@ -6,15 +6,15 @@
         <div class="column is-three-fifths is-offset-one-fifth">
 
             <header>
-                <h1 class="title is-size-1 is-size-3-mobile has-text-white">{{ .Title }}</h1>
+                <h1 class="title is-size-1 is-size-3-mobile gradient-text">{{ .Title }}</h1>
 
                 <p class="my-5">Reading time: {{ math.Round (div (countwords .Content) 220.0) }} minutes.</p>
                   <aside>
                     <small>This post may contain affiliate links or mention my own products, please check out my <a href="/disclaimer/#affiliate-disclosure:~:text=uploading%20any%20information.-,Affiliate%20disclosure,-Thelazynfter%20is%20an" target="_blank">disclaimer</a> policy.</small>
                   </aside>
 
-                <div class="image is-16by9 my-5" aria-hidden="true">
-                    <img src="{{ .Params.Thumbnail | relURL }}" alt="{{ .Params.thumbnail_alt }}" width="730" height="416">
+                <div class="image is-16by9 my-5">
+                    <img src="{{ .Params.Thumbnail | relURL }}" alt="{{ .Params.thumbnail_alt }}" width="730" height="416" loading="lazy">
                 </div>
                 <p>{{ .Params.intro }}</p>
             </header>

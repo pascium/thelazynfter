@@ -1,7 +1,7 @@
 baseURL = 'https://thelazynfter.blog/'
 languageCode = 'en'
 title = 'Thelazynfter'
-description = "Thelazynfter.blog is the best place to learn about Crypto, Blockchain, NFT and Dapp. With simple to understand content that is beginner-friendly."
+description = "A new generation of AI are making it possible for artists to create amazing works of art through text and natural language."
 theme = 'blogging-authority'
 copyright = "{year} - thelazynfter.blog"
 disableKinds = ["taxonomy", "taxonomyTerm"]

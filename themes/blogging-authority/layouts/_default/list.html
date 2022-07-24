@@ -4,7 +4,7 @@
     <div class="section">
         <header class="columns">
             <div class="column is-two-thirds mb-5">
-                <h1 class="title is-size-1 is-size-3-mobile has-text-white">{{ .Params.headline }}</h1>
+                <h1 class="title is-size-1 is-size-3-mobile gradient-text">{{ .Params.headline }}</h1>
                 <p class="mt-5 has-text-grey-light">
                     {{ .Params.intro }}
                 </p>
@@ -12,25 +12,24 @@
         </header>
         <section class="row columns is-multiline">
             {{ range .Pages.ByDate.Reverse }}
-            <article class="column is-4">
-                <div class="card large card-shadow card-bg">
+            <a href="{{ .Permalink }}" class="column is-4" aria-label="read {{ .Title }} article">
+            <article>
+                <header class="card large card-shadow card-bg">
                     <div class="card-image">
-                        <div class="image is-4by3" aria-hidden="true">
+                        <div class="image is-4by3">
                             <img src="{{ .Params.Thumbnail | relURL }}" alt="{{ .Params.thumbnail_alt }}" width="312" height="234" loading="lazy">
                         </div>
                     </div>
                     <div class="card-content">
-                            <header class="content">
+                            <div class="content">
                                 <h2 class="title is-5 has-text-white">{{ .Title }}</h2>
                                 <p class="has-text-grey-light">{{ .Description }}</p>
-                            </header>
-                        <div>
-                            <a href="{{ .Permalink }}" aria-label="read article about {{ .Title }}" class="button is-warning is-small">Continue Reading</a>
-                        </div>
+                            </div>
                     </div>
-                </div>
+                </header>
 
             </article>
+            </a>
             {{ end }}
         </section>
 

@@ -1,11 +1,11 @@
 ---
-title: "Free AI Art Generator"
-description: "Creating art automatically sounds impossible but AI can do it. In this article, I will share with you my top 3 art generators that are free without coding."
+title: "Free AI Image Generators"
+description: "There are a number of free AI image generators out there. Here you'll find the best and most popular ones."
 
 type: "article"
 
 date: 2022-06-11T15:27:46+02:00
-mod_date: 2022-06-29T12:26:46+02:00
+mod_date: 2022-07-24T14:47:46+02:00
 thumbnail: "img/blog/free_art_generator.webp"
 thumbnail_alt: "my top 3 free AI art generators"
 ---

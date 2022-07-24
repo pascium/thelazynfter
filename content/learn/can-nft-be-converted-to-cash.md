@@ -1,12 +1,12 @@
 ---
 title: "Can NFT Be Converted to Cash"
-description: "Don’t like your NFT anymore and want to convert it back to cash so you can buy something else? This article will cover the important parts you need to know."
+description: "Can NFT be converted to cash? This article will tell you about the options available for converting NFTs to cash."
 
 type: "article"
 layout: "trend"
 
 date: 2022-07-11T21:31:15+02:00
-mod_date: 2022-07-11T21:31:15+02:00
+mod_date: 2022-07-124T14:46:15+02:00
 thumbnail: "img/blog/convert_nft_for_cash.webp"
 thumbnail_alt: "convert nft to cash"
 ---

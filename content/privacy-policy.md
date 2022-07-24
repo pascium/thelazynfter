@@ -1,5 +1,5 @@
 ---
-title: "Privacy Policy of TheLazyNFTer"
+title: "Privacy Policy - Thelazynfter"
 description: "I try to be as open as possible on how I collect and use online data. This privacy policy show's in detail what is collected and how I tend to use it."
 headline: "Privacy Policy"
 layout: "page"
@@ -10,7 +10,7 @@ menu:
     weight: 2
 
 date: 2022-06-06T14:27:22+02:00
-mod_date: 2022-06-06T14:27:22+02:00
+mod_date: 2022-07-16T14:18:22+02:00
 ---
 Accessiblety is one of my main priorities is the privacy of my visitors.
 

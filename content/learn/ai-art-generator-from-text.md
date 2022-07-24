@@ -1,11 +1,11 @@
 ---
 title: "AI Art Generator From Text"
-description: "This step-bystep guide will teach you how to use the AI art generator for free to generate art from your text for free and without any coding."
+description: "Using artificial intelligence, this simple generator can create AI art to express your feelings."
 
 type: "article"
 
 date: 2022-06-10T14:48:01+02:00
-mod_date: 2022-06-29T12:424:01+02:00
+mod_date: 2022-07-24T14:42:01+02:00
 thumbnail: "img/blog/ai_art_generator_how_to.webp"
 thumbnail_alt: "ai art generator from text"
 ---
