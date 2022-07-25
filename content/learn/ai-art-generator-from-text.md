@@ -1,19 +1,23 @@
 ---
 title: "AI Art Generator From Text"
-description: "Using artificial intelligence, this simple generator can create AI art to express your feelings."
+description: "In this tutorial I will show you how to create your own NFT art and give you the tools to build your own work of art."
 
 type: "article"
 
 date: 2022-06-10T14:48:01+02:00
-mod_date: 2022-07-24T14:42:01+02:00
+mod_date: 2022-07-25T15:55:01+02:00
 thumbnail: "img/blog/ai_art_generator_how_to.webp"
 thumbnail_alt: "ai art generator from text"
 ---
-In this guide I will explain to you how to download the art generator I personally use on a daily basis for creating art for my blog thelazynfter.
+AI art generator from text is a tool that helps you create beautiful pictures using only text.
 
-Don’t worry about the length of this guide, I will try to keep it short and to the point.
+There are several tools out there that allow you to generate images from text. The problem is that they often require a large amount of data or a complicated algorithm.
 
-If you want to jump to a specific section on the page, here is a simple outline with clickable links that takes you to that specific section.
+However, in this guide I will share with you a simple AI art generator that can generate unique images without monthly fees.
+
+To help you get started even faster, I will explain to you how to download the art generator that I personally use on a daily basis for creating art for my blog thelazynfter.
+
+Plus how to set it up in your own google account.
 
 {{< toc >}}
 

@@ -1,9 +1,9 @@
 ---
-title: "Contact Me - Thelazynfter"
-description: "If you have any questions about Thelazynfter or if you want to contact me, email me directly or use my contact form. Answer within 4 business days."
+title: "Contact Thelazynfter"
+description: "Do you have any questions about the website or tools I post online? I l love to hear from you! Reach out to me today!"
 headline: "Contact Me."
 date: 2022-06-04T00:08:28+02:00
-mod_date: 2022-07-16T13:13:28+02:00
+mod_date: 2022-07-25T15:58:28+02:00
 layout: "contact"
 
 menu:

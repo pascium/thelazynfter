@@ -6,11 +6,13 @@ type: "article"
 layout: "trend"
 
 date: 2022-07-11T21:31:15+02:00
-mod_date: 2022-07-124T14:46:15+02:00
+mod_date: 2022-07-24T14:46:15+02:00
 thumbnail: "img/blog/convert_nft_for_cash.webp"
 thumbnail_alt: "convert nft to cash"
 ---
-So you have bought an NFT from a marketplace, and now you want to convert it into cash for some reason.
+Non-fungible tokens are unique assets that cannot be easily replaced or duplicated. They are often used to represent collectibles such as artwork, sports memorabilia, or even real estate.
+
+Non-fungible tokens can be converted to cash through a variety of methods. In some cases, they can be sold directly to another person, or traded on secondary markets.
 
 **_Unfortunately, you cannot exchange NFT artwork directly for money._**
 

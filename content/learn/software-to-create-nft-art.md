@@ -1,6 +1,6 @@
 ---
 title: "Software To Create NFT Art"
-description: "NFT art is a growing trend in the world of cryptocurrencies. You can create your own NFT art using some of the software mentioned here."
+description: "Are you looking for software to create NFT art? In this article I will share some useful software tools that you use to create your own NFT art."
 type: "article"
 layout: "trend"
 
@@ -10,7 +10,7 @@ menu:
     weight: 2
 
 date: 2022-06-07T15:00:10+02:00
-mod_date: 2022-07-16T13:16:10+02:00
+mod_date: 2022-07-25T15:50:10+02:00
 thumbnail: "img/blog/best_nft_software.webp"
 thumbnail_alt: "best software to create NFT art"
 ---

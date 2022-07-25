@@ -2,11 +2,20 @@
   --dark-bg: #111827;
   --card-bg: #1e2534;
   --btn-bg: #00f0ff;
+  --btn-hover: #00DCEB;
 }
 body{
     font-family: 'Sora', sans-serif !important;
 }
+a:hover{text-decoration: underline;}
 a:focus{font-weight: bold;text-decoration: underline;}
+.button{
+    transition: all ease-in-out 360ms;
+}
+.button:hover{
+    background-color: var(--btn-hover);
+    transform: scale(.9);
+}
 .gradient-text{
   background-image: linear-gradient(45deg,#ff61d3 10%,#b318ff 36%,#b318ff 47%,#30b6ff 67%,#00f0ff 76%,#1e43ff);
   -webkit-background-clip: text;
@@ -31,9 +40,12 @@ a:focus{font-weight: bold;text-decoration: underline;}
 }
 .card-bg{
   background-color: var(--card-bg) !important;
+}
+.card-glow{
+  background-color: var(--card-bg) !important;
   transition: all ease-in-out 360ms;
 }
-.card-bg:hover{
+.card-glow:hover{
     box-shadow:
     0 0 11px 6px #fff,            /* outer white */
     -10px 0 24px #f0f,        /* outer left magenta */

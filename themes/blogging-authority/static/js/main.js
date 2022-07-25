@@ -36,6 +36,20 @@ window.addEventListener('load', (event) => {
     };
     toggleMenu();
 
+    function subHeadings() {
+        if (/learn/.test(window.location.href)) {
+            const singlePage = document.getElementById('single-page');
+
+            var subheadingCollection = singlePage.querySelectorAll('h2');
+
+            for (var i = 0; i < subheadingCollection.length; i++) {
+                subheadingCollection[i].classList.add('sub-gradient');
+            };
+
+        };
+
+    };subHeadings();
+
 
     if ('serviceWorker' in navigator) {
         navigator.serviceWorker.register('/sw.js')

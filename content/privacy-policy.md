@@ -1,6 +1,6 @@
 ---
-title: "Privacy Policy - Thelazynfter"
-description: "I try to be as open as possible on how I collect and use online data. This privacy policy show's in detail what is collected and how I tend to use it."
+title: "Privacy Policy of Thelazynfter"
+description: "You have nothing to worry about when using Thelazynfter because I don’t gather any data. My privacy policy explains this in more detail."
 headline: "Privacy Policy"
 layout: "page"
 
@@ -10,10 +10,8 @@ menu:
     weight: 2
 
 date: 2022-06-06T14:27:22+02:00
-mod_date: 2022-07-16T14:18:22+02:00
+mod_date: 2022-07-25T16:04:22+02:00
 ---
-Accessiblety is one of my main priorities is the privacy of my visitors.
-
 This Privacy Policy document contains types of information that is collected and recorded by TheLazyNFTer and how we use it.
 
 If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.

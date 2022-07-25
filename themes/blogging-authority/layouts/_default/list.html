@@ -12,9 +12,9 @@
         </header>
         <section class="row columns is-multiline">
             {{ range .Pages.ByDate.Reverse }}
-            <a href="{{ .Permalink }}" class="column is-4" aria-label="read {{ .Title }} article">
+            <a href="{{ .Permalink }}" class="column is-4" aria-label="Start reading {{ .Title }} article">
             <article>
-                <header class="card large card-shadow card-bg">
+                <header class="card large card-shadow card-bg card-glow">
                     <div class="card-image">
                         <div class="image is-4by3">
                             <img src="{{ .Params.Thumbnail | relURL }}" alt="{{ .Params.thumbnail_alt }}" width="312" height="234" loading="lazy">

@@ -2,11 +2,11 @@
 title: "NFTs Are My Passion"
 description: "NFTs are my passion! Why? Because I get a kick out of using them. I hope you do too. And here's everything you need to know!"
 Headline: "NFTs Are My Passion"
-intro: "Learn Crypto with Thelazynfter. Browse my collection of simple and informative reviews and guides for people new to cryptocurrency, mining, and more."
+intro: "NFTs are my passion! Why? Because I get a kick out of using them. I hope you do too. And here's everything you need to know!"
 
 menu:
   main:
-    name: "NFT Guides"
+    name: "Learn"
     weight: 1
 
 
