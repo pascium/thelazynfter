@@ -3,12 +3,11 @@ title: "Is Screenshotting NFTs Illegal?"
 description: "If you are wondering whether or not it is illegal to screenshot an NFT, this article will hopefully clear things up for you."
 
 type: "article"
-layout: "trend"
 
 date: 2022-07-03T14:23:29+02:00
 mod_date: 2022-07-24T14:59:29+02:00
 thumbnail: "img/blog/screenshot_nft.webp"
-thumbnail_alt: "screenshot nft"
+thumbnail_alt: "Screenshot software in art style."
 ---
 There is no definitive answer to this question as it depends on the jurisdiction in which you are operating. Generally speaking, taking a screenshot of a digital asset that is not yours (typically referred to as an "infringement") is considered to be illegal in most jurisdictions.
 

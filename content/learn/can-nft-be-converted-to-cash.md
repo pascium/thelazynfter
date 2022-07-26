@@ -3,12 +3,11 @@ title: "Can NFT Be Converted to Cash"
 description: "Can NFT be converted to cash? This article will tell you about the options available for converting NFTs to cash."
 
 type: "article"
-layout: "trend"
 
 date: 2022-07-11T21:31:15+02:00
 mod_date: 2022-07-24T14:46:15+02:00
 thumbnail: "img/blog/convert_nft_for_cash.webp"
-thumbnail_alt: "convert nft to cash"
+thumbnail_alt: "Art on paper canvas."
 ---
 Non-fungible tokens are unique assets that cannot be easily replaced or duplicated. They are often used to represent collectibles such as artwork, sports memorabilia, or even real estate.
 

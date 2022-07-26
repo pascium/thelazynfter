@@ -7,7 +7,7 @@ type: "article"
 date: 2022-06-11T15:27:46+02:00
 mod_date: 2022-07-24T14:47:46+02:00
 thumbnail: "img/blog/free_art_generator.webp"
-thumbnail_alt: "my top 3 free AI art generators"
+thumbnail_alt: "Abstract art of a bird with colorful feathers."
 ---
 With AI image generation, you can create unique images automatically, without the need for a graphic designer. 
 

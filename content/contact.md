@@ -5,9 +5,4 @@ headline: "Contact Me."
 date: 2022-06-04T00:08:28+02:00
 mod_date: 2022-07-25T15:58:28+02:00
 layout: "contact"
-
-menu:
-  footer:
-    name: "Contact"
-    weight: 4
 ---

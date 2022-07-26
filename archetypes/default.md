@@ -3,7 +3,6 @@ title: "{{ replace .Name "-" " " | title }}"
 description: ""
 
 type: "article"
-layout: "trend"
 
 date: {{ .Date }}
 mod_date: {{ .Date }}

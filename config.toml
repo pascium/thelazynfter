@@ -21,6 +21,41 @@ menu = ['main', 'footer']
     'author' = 'Thelazynfter'
     'logo' = 'img/thelazynfter_logo.svg'
 
+
+
+
+
+[menu]
+    [[menu.main]]
+      identifier = 'learn'
+      name = 'Learn'
+      url = '/learn/'
+      weight = 1
+    [[menu.main]]
+      identifier = 'software'
+      name = 'NFT Software'
+      url = '/learn/software-to-create-nft-art/'
+      weight = 2
+
+    [[menu.footer]]
+      identifier = 'privacy'
+      name = 'Privacy'
+      url = '/privacy-policy/'
+      weight = 1
+    [[menu.footer]]
+      identifier = 'disclaimer'
+      name = 'Disclaimer'
+      url = '/disclaimer/'
+      weight = 2
+    [[menu.footer]]
+      identifier = 'contact'
+      name = 'Contact'
+      url = '/contact/'
+      weight = 3
+
+
+
+
 [privacy]
     [privacy.disqus]
         disable = true

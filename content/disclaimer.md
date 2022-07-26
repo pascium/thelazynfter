@@ -4,12 +4,6 @@ description: "I work hard to keep my website up to date. However, I cannot guara
 headline: "Disclaimer Policy"
 layout: "page"
 
-menu:
-  footer:
-    name: "Disclaimer"
-    weight: 3
-
-
 date: 2022-06-06T14:28:54+02:00
 mod_date: 2022-07-25T16:01:54+02:00
 ---

@@ -2,17 +2,11 @@
 title: "Software To Create NFT Art"
 description: "Are you looking for software to create NFT art? In this article I will share some useful software tools that you use to create your own NFT art."
 type: "article"
-layout: "trend"
-
-menu:
-  main:
-    name: "NFT software"
-    weight: 2
 
 date: 2022-06-07T15:00:10+02:00
 mod_date: 2022-07-25T15:50:10+02:00
 thumbnail: "img/blog/best_nft_software.webp"
-thumbnail_alt: "best software to create NFT art"
+thumbnail_alt: "Digital NFt software in art style depicted."
 ---
 There are many different types of NFT art, which can require a variety of different software programs.
 

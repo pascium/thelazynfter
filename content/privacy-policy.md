@@ -4,11 +4,6 @@ description: "You have nothing to worry about when using Thelazynfter because I 
 headline: "Privacy Policy"
 layout: "page"
 
-menu:
-  footer:
-    name: "Privacy"
-    weight: 2
-
 date: 2022-06-06T14:27:22+02:00
 mod_date: 2022-07-25T16:04:22+02:00
 ---

@@ -7,7 +7,7 @@ type: "article"
 date: 2022-06-10T14:48:01+02:00
 mod_date: 2022-07-25T15:55:01+02:00
 thumbnail: "img/blog/ai_art_generator_how_to.webp"
-thumbnail_alt: "ai art generator from text"
+thumbnail_alt: "AI robot on billboard with sci-fi building in the background at night."
 ---
 AI art generator from text is a tool that helps you create beautiful pictures using only text.
 

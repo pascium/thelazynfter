@@ -6,7 +6,7 @@ type: "article"
 date: 2022-06-08T17:36:14+02:00
 mod_date: 2022-07-24T15:03:14+02:00
 thumbnail: "img/blog/nft_scams.webp"
-thumbnail_alt: "NFT scams 2022"
+thumbnail_alt: "NFT scam tactics illustrated in art style."
 ---
 NFTs are normally nothing special, but when they can sell for big bucks, scammers will try any tricks in the book to steal your crypto or wallet credentials.
 
